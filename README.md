@@ -1,15 +1,19 @@
-# terminuscms-docs
-A place for us to build brilliant TerminusCMS documentation.
+# TerminusCMS Docs To Do...
+*A place for us to build brilliant TerminusCMS documentation.*
 
-Wowza, you're all here, nice to meet so many likeminded people.
+Stage 1 - Write the documenation.
 
-This is a place where we are going to build the TerminusCMS documentation.
+**Deadline: 3rd March**
 
-Save your md files in this repo so we can all review and see what we've got. We'll dogfood our docs using these files.
+PRIORITY - How-to guides
 
-Here are some instructions for the Reference Guides that you've been assigned. **Please complete these by 3rd March**
+There are place holder md files there. Copy whatever is relevant from TerminusDB docs. To see what you've got to do, refer to this document: [Expanded docs structure](https://docs.google.com/document/d/1Xh4kkZu5uD2r-x8HgqrmHCsZBaVB6dngf9FTSsUyYlc/edit?usp=sharing). When you've done one, check it off in the Google doc to see what's still left to do.
 
-[Reference guide instructions and respnsibilities](https://docs.google.com/document/d/1WlYkf0gRAIg-AVZPlgaXm0JW_WgMytl4bVgmvexWDc4/edit?usp=sharing)
+THEN - Reference guides
+
+For who's got to do what, and some helpful notes, please refer to the [Reference guide instructions and respnsibilities document](https://docs.google.com/document/d/1WlYkf0gRAIg-AVZPlgaXm0JW_WgMytl4bVgmvexWDc4/edit?usp=sharing)
+
+### Mural Board
 
 [TerminusCMS docs top level structure](https://app.mural.co/invitation/mural/terminusdb9443/1676543992735?sender=u2061ead52bc7573c21bc7232&key=5fa87e0a-7ebc-47d8-8412-599d4a37f502)
 
