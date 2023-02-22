@@ -1,8 +1,6 @@
----
-description: Manage your teams and users in the TerminusCMS dashboard
----
-
 # Manage Teams & Users
+
+*Manage your teams and users in the TerminusCMS dashboard*
 
 ### Manage Your Teams&#x20;
 
@@ -12,11 +10,11 @@ The pricing page is the first screen displayed when logging in for the first tim
 
 <div>
 
-<figure><img src="../../.gitbook/assets/pricing-page.png" alt="The first page you&#x27;ll see when first logging into TerminusCMS"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/pricing-page.png" alt="The first page you&#x27;ll see when first logging into TerminusCMS"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/teams-home-page.png" alt="Teams home page"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/teams-home-page.png" alt="Teams home page"><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,17 +29,17 @@ To create a new team from the top menu:
 
 <div>
 
-<figure><img src="../../.gitbook/assets/create-new-team.png" alt="Create a new team"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/create-new-team.png" alt="Create a new team"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/profile-option.png" alt="Select profile to create a new team"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/profile-option.png" alt="Select profile to create a new team"><figcaption></figcaption></figure>
 
 </div>
 
 ### **Adding Users**
 
-<figure><img src="../../.gitbook/assets/users-home-page.png" alt="Manage your team&#x27;s users"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/users-home-page.png" alt="Manage your team&#x27;s users"><figcaption></figcaption></figure>
 
 To invite team members and manage the team, do the following:
 
@@ -65,8 +63,6 @@ To edit the role given to a user:
 2. Find the user to change from the list and click on the second icon.&#x20;
 3. From the pop-up window, select the new role to give them.
 
-<figure><img src="../../.gitbook/assets/13-dashboard-edit-user.jpg" alt=""><figcaption></figcaption></figure>
-
 To delete a user from a team, do the same as above, but select the third icon in red.
 
 {% hint style="info" %}
@@ -83,7 +79,7 @@ Grant different permissions for different data products/projects. To do this do 
 4. Choose the data product to change the user’s role for by clicking on the edit permissions icon.&#x20;
 5. Choose from the list of permissions
 
-<figure><img src="../../.gitbook/assets/14-dashboard-granualar-access.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/granular-permissions.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Users can only have permissions higher than the team permissions, so if someone needs read/write permissions for only one data product, ensure that the team permissions are set at a lower level.
