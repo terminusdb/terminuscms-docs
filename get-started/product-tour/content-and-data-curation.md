@@ -10,7 +10,7 @@ TerminusCMS automatically generates document editing frames from the schema. Use
 
 First, navigate to the document explorer from the left menu -
 
-<figure><img src="../../.gitbook/assets/document-explorer.png" alt="TerminusCMS document explorer"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/document-explorer.png" alt="TerminusCMS document explorer"><figcaption></figcaption></figure>
 
 The document explorer lists all of the document types within the schema and displays how many of each there are.
 
@@ -20,7 +20,7 @@ The left-hand menu also details the document names with the ability to search fo
 
 Clicking on a document type displays a list of matching documents -
 
-<figure><img src="../../.gitbook/assets/document-display.png" alt="Document display"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/document-display.png" alt="Document display"><figcaption></figcaption></figure>
 
 &#x20;The document table allows users to -
 
@@ -32,7 +32,7 @@ Clicking on a document type displays a list of matching documents -
 
 The GraphQL tab provides front-end developers with an overview of the GraphQL query structure of the document and includes JSON-LD details for applied filters -
 
-<figure><img src="../../.gitbook/assets/document-view-graphql-query.png" alt="GraphQL query generated from filter results"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/document-view-graphql-query.png" alt="GraphQL query generated from filter results"><figcaption></figcaption></figure>
 
 ### Adding, Editing, & Deleting Docs
 
@@ -44,7 +44,7 @@ A change request dialogue box opens and prompts the user to add a change request
 
 To add content and data, either click on the + symbol next to the document type name from the left menu or select the 'add new' button from the document explorer page -
 
-<figure><img src="../../.gitbook/assets/add-new-document.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/add-new-document.png" alt=""><figcaption></figcaption></figure>
 
 The document editing frame is generated from the schema and this includes things like -
 
@@ -59,11 +59,11 @@ A page for example can link to sections and a body so the same piece of content 
 
 <div>
 
-<figure><img src="../../.gitbook/assets/linking-to-other-documents.png" alt="Linking to other documents"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/linking-to-other-documents.png" alt="Linking to other documents"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/unfolded-documents.png" alt="Unfolded documents "><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/unfolded-documents.png" alt="Unfolded documents "><figcaption></figcaption></figure>
 
 </div>
 
@@ -75,6 +75,6 @@ To edit a document, select the document to edit by clicking on it from the docum
 
 Make the changes and ensure to press select submit to ensure changes are saved.
 
-<figure><img src="../../.gitbook/assets/edit-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/edit-documents.png" alt=""><figcaption></figcaption></figure>
 
 To delete a document, select the red bin icon. A warning message will display to confirm the deletion.
