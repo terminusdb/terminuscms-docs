@@ -1,14 +1,12 @@
----
-description: An overview of the GraphQL and WOQL playgrounds in the TerminusCMS dashboard
----
-
 # GraphQL & WOQL Playgrounds
+
+*An overview of the GraphQL and WOQL playgrounds in the TerminusCMS dashboard*
 
 TerminusCMS features a query playground for [GraphQL](../../guides/reference-guides/graphql-reference/graphql\_query.md) and [WOQL](../../explanations/document-graph-db/woql.md).
 
 ### GraphQL Playground
 
-<figure><img src="../../.gitbook/assets/graphql-playground.png" alt="GraphQL playground"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/graphql-playground.png" alt="GraphQL playground"><figcaption></figcaption></figure>
 
 TerminusCMS includes GraphiQL to experiment and test queries. It automatically generates the GraphQL schema based on the project's schema.&#x20;
 
@@ -24,7 +22,7 @@ For more details about the types of queries available with GraphQL, such as path
 
 ### WOQL Playground
 
-<figure><img src="../../.gitbook/assets/woql-playground.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/woql-playground.jpg" alt=""><figcaption></figcaption></figure>
 
 Web Object Query Language (WOQL) is a powerful and sophisticated query language which allows you to concisely express complex patterns over arbitrary data structures.&#x20;
 
