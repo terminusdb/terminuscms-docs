@@ -1,10 +1,6 @@
----
-description: >-
-  Technical and non-technical users can curate content and data using the
-  TerminusCMS dashboard
----
-
 # Content & Data Curation
+
+*Technical and non-technical users can curate content and data using the TerminusCMS dashboard*
 
 TerminusCMS automatically generates document editing frames from the schema. Users can then add, edit, and delete content and data as needed.
 
