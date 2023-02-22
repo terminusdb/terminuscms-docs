@@ -57,7 +57,7 @@ query{
 You can also find out what fields are available with the same `Ctrl-c`
 trick.  Now, fire off the query above, and you'll see something like:
 
-```
+```json
 {
   "data": {
     "People": [
@@ -120,6 +120,114 @@ trick.  Now, fire off the query above, and you'll see something like:
         "homeworld": {
           "label": "Tatooine"
         }
+      }
+    ]
+  }
+}
+```
+
+## Adding conjunctions
+
+We can also add other elements to the filter, but using the `_and`
+keyword. This requires that both filters are true.
+
+```graphql
+query{
+  People(filter:{ _and : [ {homeworld : {label : {eq : "Coruscant"}}},
+                           {species : {label : { eq: "Human"}}},
+                         ]}){
+    label
+    species{
+      label
+    }
+    homeworld{
+      label
+    }
+  }
+}
+
+```
+
+Which yeilds:
+
+```json
+{
+  "data": {
+    "People": [
+      {
+        "label": "Finis Valorum",
+        "species": {
+          "label": "Human"
+        },
+        "homeworld": {
+          "label": "Coruscant"
+        }
+      },
+      {
+        "label": "Jocasta Nu",
+        "species": {
+          "label": "Human"
+        },
+        "homeworld": {
+          "label": "Coruscant"
+        }
+      }
+    ]
+  }
+}
+```
+
+## `_not` and `_or`
+
+You can also use `_not` and `_or` keywords to create even more complex
+filters. To find all species, excluding droids with a lifespan greater
+than 500 who don't have a typical sort of skin colour, you can write the following:
+
+
+```graphql
+{
+  Species(
+    filter: {_and : [
+      {_not :{label:{eq:"Droid"}}},
+      {_or :[
+        {average_lifespan:{gt : "500"}},
+        {_not:
+      		{skin_colors:
+        		{anyOfTerms: ["blue", "black", "white", "green", "grey"
+                              "brown", "red", "gray"]}}}]
+      }]}
+  ) {
+    label
+  }
+}
+```
+
+And yeilds:
+
+```json
+{
+  "data": {
+    "Species": [
+      {
+        "label": "Yoda's species"
+      },
+      {
+        "label": "Pau'an"
+      },
+      {
+        "label": "Hutt"
+      },
+      {
+        "label": "Sullustan"
+      },
+      {
+        "label": "Cerean"
+      },
+      {
+        "label": "Iktotchi"
+      },
+      {
+        "label": "Tholothian"
       }
     ]
   }
