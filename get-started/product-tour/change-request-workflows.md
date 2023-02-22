@@ -1,10 +1,6 @@
----
-description: >-
-  This page details how change request workflows function in TerminusCMS to
-  enable safe collaboration
----
-
 # Change Request Workflows
+
+*This page details how change request workflows function in TerminusCMS to enable safe collaboration*
 
 TerminusCMS features change request workflows to ensure that changes to data and content are made safely with reviews in place to check changes.
 
@@ -12,13 +8,13 @@ TerminusCMS features change request workflows to ensure that changes to data and
 
 When someone goes to make a change to content and data, TerminusCMS automatically opens a change request. This is a branch of the database that does not impact main. Users can make one or many changes within the change request -
 
-<figure><img src="../../.gitbook/assets/open-change-request.png" alt="Opening a change request"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/open-change-request.png" alt="Opening a change request"><figcaption></figcaption></figure>
 
 ### In a Change Request
 
 Users will see when they are in a change request. A banner with various options is included at the top of the page and there is also a notice on the left informing the user what they are connected to -
 
-<figure><img src="../../.gitbook/assets/in-change-request.png" alt="In a change request"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/in-change-request.png" alt="In a change request"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 It is important to submit edits or additions in a change request. Without hitting the submit button, changes will not be saved to the change request.
@@ -34,7 +30,7 @@ When in a change request a user has three options -
 
 Change requests are managed from the change request screen.&#x20;
 
-<figure><img src="../../.gitbook/assets/change-request-screen.png" alt="TerminusCMS change request screen"><figcaption></figcaption></figure>
+<figure><img src="https://assets.terminusdb.com/docs/change-request-screen.png" alt="TerminusCMS change request screen"><figcaption></figcaption></figure>
 
 The screen has four tabs -
 
@@ -49,19 +45,19 @@ On the change request screen, select review. Change requests that users have sub
 
 <div>
 
-<figure><img src="../../.gitbook/assets/cr-diff.png" alt="Change Request diff viewer"><figcaption></figcaption></figure>
+<figure><img style="width:48%; float:left" src="https://assets.terminusdb.com/docs/cr-diff.png" alt="Change Request diff viewer"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/cr-review-messages.png" alt="See messages in a change request for context"><figcaption></figcaption></figure>
+<figure><img style="width:48%; float:left; margin-left:4%"  src="https://assets.terminusdb.com/docs/cr-review-messages.png" alt="See messages in a change request for context"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/cr-review-home.png" alt="List of change requests for review"><figcaption></figcaption></figure>
+<figure><img style="width:48%; float:left;" src="https://assets.terminusdb.com/docs/cr-review-home.png" alt="List of change requests for review"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/cr-review-page.png" alt="Change request screen"><figcaption></figcaption></figure>
+<figure><img style="width:48%; float:left; margin-left:4%" src="https://assets.terminusdb.com/docs/cr-review-page.png" alt="Change request screen"><figcaption></figcaption></figure>
 
 </div>
 
