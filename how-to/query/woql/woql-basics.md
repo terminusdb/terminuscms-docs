@@ -76,7 +76,7 @@ an id, and we are just using it to make sure we are talking about the
 ```javascript
 let v = Vars("person", "eyes", "name");
 limit(5)
-  .select("name", "eyes")
+  .select(v.name, v.eyes)
   .and(triple(v.person, 'label', v.name),
        triple(v.person, 'eye_color', v.eyes))
 ```
