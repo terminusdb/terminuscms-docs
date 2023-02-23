@@ -1,43 +1,13 @@
 # Advanced Filtering with GraphQL
 
-To use this HowTo, first [clone the Star Wars
-demo](../use-distributed-features/clone-a-demo.md) into your team on
-TerminusCMS. You will then have full access to the data needed for
-this tutorial.
-
-[Picture here]
-
-Once you have cloned the database, go to the GraphQL icon (triangle in
-hexagon) on the left hand side and select the filing cabinet icon.
+> :note:
+> To use this HowTo, first [clone the Star Wars
+> demo](../use-distributed-features/clone-a-demo.md) into your team on
+> TerminusCMS. You will then have full access to the data needed for
+> this tutorial.
 
 TerminusDB exposes a *filter* object, which can be used to select
-specific documents.
-
-## Using a filter
-
-You can type the following in the query panel:
-
-```graphql
-query{
-   People(filter: { █ }){
-
-   }
-}
-```
-
-If at cursor point you type: `Ctrl-c` you'll get the list of options
-you can choose from.
-
-Let's choose `homeworld`
-
-
-```graphql
-query{
-   People(filter: { homeworld: { █ }}){
-
-   }
-}
-```
+specific documents. See here for basic [Filtering](filter.md)
 
 Now we can filter the homeworld from which the people we are
 interested in come. We will use a `regex` because Tatooine is hard to
