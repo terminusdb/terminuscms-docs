@@ -98,7 +98,7 @@ trick.  Now, fire off the query above, and you'll see something like:
 
 ## Adding conjunctions
 
-We can also add other elements to the filter, but using the `_and`
+We can also add other elements to the filter, by using the `_and`
 keyword. This requires that both filters are true.
 
 ```graphql
@@ -118,7 +118,7 @@ query{
 
 ```
 
-Which yeilds:
+Which yields:
 
 ```json
 {
@@ -258,7 +258,7 @@ input People_Filter {
 ```
 
 In this way we can recursively qualify all of the objects to which a
-`People` might point to, terminating at leaves which use the various
+`People` might point to, terminating at leaves that use the various
 concrete type filters.
 
 For instance, the `StringFilter` looks like:
@@ -280,4 +280,4 @@ input StringFilter {
 
 We can specify any of these operands to narrow down our search. For
 more information on the operations against concrete datatypes, see the
-[GraphQL Reference](reference_here) section.
+[GraphQL Reference](../../../reference-guides/graphql-reference) section.
