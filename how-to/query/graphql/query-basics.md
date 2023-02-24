@@ -13,7 +13,7 @@ hexagon) on the left hand side and select the filing cabinet icon.
 
 <img src="https://assets.terminusdb.com/docs/how-to-query-graphql.png" alt="GraphQL query playground">
 
-Now you can will have two panels, one on the left for query, and one
+Now you have two panels, one on the left for query, and one
 on the right for results.
 
 ## Entering a query
@@ -26,7 +26,7 @@ query{
 }
 ```
 
-If at cursor point you type: `Ctrl-c` you'll get the list of options
+If at the cursor point you type: `Ctrl-c` you'll get a list of options
 you can choose from. These options are legal GraphQL syntax according
 to your provided schema.  Let's search for people from the Star Wars
 universe.
