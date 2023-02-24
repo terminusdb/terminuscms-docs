@@ -10,7 +10,7 @@
 
 In order to query the schema, you can use *graph* arguments to
 WOQL. TerminusCMS stores each branch as a pair of graphs, an instance
-graph a schema graph.
+graph and a schema graph.
 
 We can specify the graph by passing it as an argument to the `quad`
 word.
