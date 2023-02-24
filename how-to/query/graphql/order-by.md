@@ -52,7 +52,7 @@ This will give us the following people:
 
 Order by can also take more than one argument, allowing us to order on
 more than one value using the remaining arguments when there is a tie
-in the preceeding (lexicographic ordering).
+in the preceding (lexicographic ordering).
 
 We can see this by searching for species, and which language they
 speak and their name. Since many will share the same language, we can
