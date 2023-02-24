@@ -11,7 +11,7 @@
 If we need to group variables according to some criteria, we can
 create an aggregate of solutions using `groupBy`.
 
-A group by is composed of a *focus* a *template* and a *group*
+A group by is composed of a *focus*, a *template*, and a *group*
 together with a query.
 
 We will demonstrate this with the following query:
