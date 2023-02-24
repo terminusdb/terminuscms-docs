@@ -9,7 +9,7 @@
 ## Finding elements from the schema.
 
 In order to query the schema, you can use *graph* arguments to
-WOQL. TerminusDB stores each branch as a pair of graphs, an instance
+WOQL. TerminusCMS stores each branch as a pair of graphs, an instance
 graph a schema graph.
 
 We can specify the graph by passing it as an argument to the `quad`
