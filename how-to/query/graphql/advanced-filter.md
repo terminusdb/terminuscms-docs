@@ -9,8 +9,7 @@
 TerminusDB exposes a *filter* object, which can be used to select
 specific documents. See here for basic [Filtering](filter.md)
 
-Now we can filter the homeworld from which the people we are
-interested in come. We will use a `regex` because Tatooine is hard to
+Now we can filter the homeworld of the people we are interested in. We will use a `regex` because Tatooine is hard to
 spell.
 
 ```graphql
@@ -172,7 +171,7 @@ than 500 who don't have a typical sort of skin colour, you can write the followi
 }
 ```
 
-And yeilds:
+And yields:
 
 ```json
 {
