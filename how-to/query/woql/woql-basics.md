@@ -8,7 +8,7 @@
 
 ## Writing a WOQL Query
 
-[Picture]
+<img src="https://assets.terminusdb.com/docs/how-to-query-woql.png" alt="WOQL query playground in the TerminusCMS dashboard">
 
 First, go to the WOQL Query Panel in the UI. Now you can type a query
 using the syntax of the JS client in the panel.
