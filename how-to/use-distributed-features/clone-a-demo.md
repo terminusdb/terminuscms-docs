@@ -2,7 +2,7 @@
 
 You can clone a demo database by logging in to TerminusCMS and
 selecting a Team. Once selected you will see a "Create New
-Dataproduct" or a number of possible data sets to clone. To clone the
+Data Product" or a number of possible data sets to clone. To clone the
 data set, just click on the card, and it will clone it into your
 currently selected team.
 
@@ -11,7 +11,7 @@ cloning is fast even if the data set is very large. When you make
 edits, they will be private to you, but it will be indistinguishable
 to you from editing the main database.
 
-To get start with a demo dataset you can choose any of:
+To get started with a demo dataset you can choose any of:
 
 * Star Wars
 * Lego
