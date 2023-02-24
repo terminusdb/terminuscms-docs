@@ -71,7 +71,7 @@ limit(5)
 
 Since we probably do not really need the `person` variable, as it is
 an id, and we are just using it to make sure we are talking about the
-*same* person in both triples, we an use `select` to remove it.
+*same* person in both triples, we can use `select` to remove it.
 
 ```javascript
 let v = Vars("person", "eyes", "name");
