@@ -13,7 +13,7 @@ which objects are pointing to it. In TerminusCMS each object gets a
 number of extended queries which allows one to discover any objects
 which point at that object.
 
-Once you have cloned the Star Wars demo, to to the [GraphQL query
+Once you have cloned the Star Wars demo, go to the [GraphQL query
 panel](query-basics.md) and type:
 
 ```graphql
