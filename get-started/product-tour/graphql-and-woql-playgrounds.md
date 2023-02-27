@@ -2,7 +2,7 @@
 
 *An overview of the GraphQL and WOQL playgrounds in the TerminusCMS dashboard*
 
-TerminusCMS features a query playground for [GraphQL](../../guides/reference-guides/graphql-reference/graphql\_query.md) and [WOQL](../../explanations/document-graph-db/woql.md).
+TerminusCMS features a query playground for [GraphQL](../../how-to/query/graphql/query-basics.md) and [WOQL](../../how-to/query/woql/woql-basics.md).
 
 ### GraphQL Playground
 
@@ -18,7 +18,7 @@ It includes -
 * Results panel
 * Error reporting
 
-For more details about the types of queries available with GraphQL, such as path queries, filters, and arguments, please refer to the [GraphQL reference guide](../../guides/reference-guides/graphql-reference/).
+For more details about the types of queries available with GraphQL, such as path queries, filters, and arguments, please refer to the [GraphQL reference guide](../../reference-guides/graphql-reference).
 
 ### WOQL Playground
 
@@ -35,6 +35,5 @@ The playground enables users to build WOQL queries to experiment and test. Users
 
 Please see these other resources for understanding and using WOQL -
 
-* [WOQL Basics](../../guides/how-to-guides/query-data/woql-query-basics.md)
-* [JavaScript Client WOQL reference guide](../../guides/reference-guides/javascript-client-reference/)
-* [Python Client WOQL reference guide](../../guides/reference-guides/python-client-reference/)
+* [WOQL Basics](../../how-to/query/woql/woql-basics.md)
+* [WOQL reference guide](../../reference-guides/woql.md)
