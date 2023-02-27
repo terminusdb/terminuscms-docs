@@ -10,6 +10,6 @@ Follow this instructions to create a project/data product in TerminusCMS -
 6. Provide a description for your project. This is useful if you are collaborating to provide context to other users.
 7. Select 'Create New Data Product' button.
 
-<img src="https://assets.terminusdb.com/docs/how-to-manage-your-projects-create-a-new-project.png" alt="how to create a project in the TerminusCMS dashboard">
+<img src="https://assets.terminusdb.com/docs/new-data-product.png" alt="how to create a project in the TerminusCMS dashboard">
 
 Your project is created and you can now start working with it. To access it at any time, select the project from the list of projects on left of the dashboard.
