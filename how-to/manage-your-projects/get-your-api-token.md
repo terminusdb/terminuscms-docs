@@ -34,7 +34,7 @@ export TERMINUSDB_ACCESS_TOKEN="my API key here"
 
 You are now ready to start with a client -
 
-[Connect to JavaScript Client](https://addlinkhere.com)
+[Connect to JavaScript Client](../../how-to/use-the-clients/javascript-client/connect-to-javascript-client.md)
 
-[Connect to Python Client](https://addlinkhere.com)
+[Connect to Python Client](../../how-to/use-the-clients/python-client/connect-to-python-client.md)
 
