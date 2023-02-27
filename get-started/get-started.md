@@ -11,14 +11,14 @@ TerminusCMS is free to get started. When you sign up, you are assigned the commu
 ### Steps to get started
 
 1. Sign up at [https://dashboard.terminusdb.com](https://dashboard.terminusdb.com)
-2. Take a look through the [product tour](terminuscms/product-tour/) to familiarise yourself with TerminusCMS
-3. Install the [JavaScript](terminusdb/install-client/install-javascript-client.md) or [Python](terminusdb/install-client/install-python-client.md) Client
-4. [Get your API key to use a client with TerminusCMS.](terminuscms/get-api-key.md)
-5. [Familiarize yourself with the client API](terminuscms/start-with-client.md) to start building with TerminusCMS.
+2. Take a look through the [product tour](/product-tour/) to familiarise yourself with TerminusCMS
+3. Install the [JavaScript](../how-to/use-the-clients/javascript-client/connect-to-javascript-client.md) or [Python](../how-to/use-the-clients/python-client/connect-to-python-client.md) Client
+4. [Get your API key to use a client with TerminusCMS.](../how-to/manage-your-projects/get-your-api-token.md)
+5. [Familiarize yourself with the client API](../how-to/use-the-clients/) to start building with TerminusCMS.
 
 ### Demo Projects
 
 There are several demo projects available to clone and experiment with. Sign up and visit your team home page to clone these projects.
 
-<figure><img src="https://4053281810-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVZc9T1wJdVvodyIFrJuV%2Fuploads%2FphNTQdN5QCOya0k1uoaP%2Fterminuscms-demos.png?alt=media&token=5d4efb71-a918-4448-a999-ae36a2a8a042" alt=""><figcaption>
+<figure><img src="https://assets.terminusdb.com/docs/how-to-clone-a-demo.png" alt="Start with one of our demo projects to experiement and get to know TerminusCMS"><figcaption>
 <p>Your team home page features a number of demo projects to clone and experiment with.</p></figcaption></figure>
