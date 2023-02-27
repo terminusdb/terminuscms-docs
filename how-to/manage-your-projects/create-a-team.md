@@ -16,6 +16,6 @@ Follow these instruction to create a new team in the TerminusCMS dashboard -
 4. Name your team and press the 'Create a New Team' button.
 
 
-You are now ready to add projects to your team and invite collaborators.
+You are now ready to [add projects](create-a-project.md) to your team and [invite collaborators](invite-team-members.md).
 
 
