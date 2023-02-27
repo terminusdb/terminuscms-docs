@@ -21,7 +21,7 @@ Select the data product by clicking it.
 
 Build a project's schemas using the user interface or develop it in code.&#x20;
 
-For a detailed overview of the schema language, which is based on JSON syntax refer to the [schema reference guide](../../guides/reference-guides/schema.md).
+For a detailed overview of the schema language, which is based on JSON syntax refer to the [schema reference guide](../../reference-guides/schema.md).
 
 #### Visual Interface
 
