@@ -17,3 +17,5 @@ To get started with a demo dataset you can choose any of:
 * Lego
 * Nuclear
 * CAMS (Critical Asset Management System)
+
+<img src="https://assets.terminusdb.com/docs/how-to-clone-a-demo.png" alt="clone a demo project to get started with TerminusCMS" />
