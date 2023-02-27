@@ -2,7 +2,7 @@
 
 > :note:
 > To use this HowTo, first [clone the Star Wars
-> demo](../use-distributed-features/clone-a-demo.md) into your team on
+> demo](../../use-distributed-features/clone-a-demo.md) into your team on
 > TerminusCMS. You will then have full access to the data needed for
 > this tutorial.
 
