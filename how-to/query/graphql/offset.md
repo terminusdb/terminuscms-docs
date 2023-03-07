@@ -13,7 +13,7 @@ hexagon) on the left hand side and select the filing cabinet icon.
 
 <img src="https://assets.terminusdb.com/docs/how-to-query-graphql.png" alt="GraphQL query playground in TerminusCMS">
 
-Now you can will have two panels, one on the left for query, and one
+There are two panels, one on the left for query, and one
 on the right for results.
 
 ## Adding an offset
@@ -21,7 +21,7 @@ on the right for results.
 The `offset` keyword is most often used with the [limit](./limit.md)
 keyword which when used together enable paging of results.
 
-For instance we can get exactly 5 people from the star-wars universe
+For instance, we can get exactly 5 people from the star-wars universe
 by specifying the query here:
 
 ```graphql
