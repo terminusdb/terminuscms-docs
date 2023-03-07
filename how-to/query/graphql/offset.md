@@ -6,12 +6,12 @@
 > TerminusCMS. You will then have full access to the data needed for
 > this tutorial.
 
-[Picture here]
+<img src="https://assets.terminusdb.com/docs/how-to-clone-a-demo.png" alt="Clone the Star Wars demo from the TerminusCMS dashboard">
 
 Once you have cloned the database, go to the GraphQL icon (triangle in
 hexagon) on the left hand side and select the filing cabinet icon.
 
-[Picture here]
+<img src="https://assets.terminusdb.com/docs/how-to-query-graphql.png" alt="GraphQL query playground in TerminusCMS">
 
 Now you can will have two panels, one on the left for query, and one
 on the right for results.
