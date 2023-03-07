@@ -10,15 +10,21 @@ To use the Python or JavaScropt client with TerminusCMS, an API key is required.
 
 Log in to the user interface dashboard [dashboard.terminusdb.com](https://dashboard.terminusdb.com)
 
-**2. Select your profile**
+**2. Select a Team**
+
+The teams are listed in the centre of the screen after logging in (and
+selecting a plan if you have not already done so). This will be the
+team in which the API key will be generated.
+
+**3. Select your profile**
 
 Select your `Profile` by clicking on ▼ at the top-right corner of the screen.
 
-**3. Generate a Personal Access Token**
+**4. Generate a Personal Access Token**
 
 Enter a description in `Add a Token Description` then click `Generate New Token`. Copy the token generated.
 
-**4. Copy the required code snippet**
+**5. Copy the required code snippet**
 
 Select the `Python` or `JavaScript` tab then copy the code snippet.
 
