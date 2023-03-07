@@ -13,7 +13,7 @@ hexagon) on the left hand side and select the filing cabinet icon.
 
 <img src="https://assets.terminusdb.com/docs/how-to-query-graphql.png" alt="GraphQL query playground in TerminusCMS">
 
-Now you can will have two panels, one on the left for query, and one
+There are two panels, one on the left for query, and one
 on the right for results.
 
 ## Adding a limit
