@@ -6,7 +6,7 @@ database](connect-to-a-database.md) you can create a schema.
 
 ## Insert schema document(s)
 
-You can update the schema by adding json well formed schema documents:
+You can update the schema by adding well-formed JSON schema documents:
 
 ```python
 schema = [{ '@type' : 'Class', '@id' : 'Country'},
