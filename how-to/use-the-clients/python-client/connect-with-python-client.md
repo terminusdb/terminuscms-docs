@@ -1,7 +1,6 @@
 # Connecting with the Python Client
 
-First, you should install the python client. For instructions on
-installing see [installation of
+First, you should install the Python client. For installation instructions, see [installation of
 python](./install-the-python-client.md).
 
 ## Connecting with the Python Client
@@ -55,7 +54,7 @@ client = Client("http://localhost:6363/")
 client.connect(team=team, password="MyPassword")
 ```
 
-If you are using terminusdb locally, and you have not set up a
+If you are using TerminusDB locally, and you have not set up a
 specific team, or changed the password differently from the default,
 you can simply connect with:
 
