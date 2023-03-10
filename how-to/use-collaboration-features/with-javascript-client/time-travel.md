@@ -14,7 +14,7 @@ const getCommits= async () => {
     console.log("Show the last 10 commits", JSON.stringify(commits.bindings,null,4))
 }
 ```
-## Get the branch commits list starting by a specific timestamp
+## Get the branch commits list starting with a specific timestamp
 
 You can also get a list of commits from a specific timestamp. The timestamp can be obtained from the log - 
 
