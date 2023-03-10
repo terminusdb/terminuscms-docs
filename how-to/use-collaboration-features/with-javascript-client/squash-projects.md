@@ -1,6 +1,6 @@
-# Squashing commits
+# Squashing Commits
 
-*How-to use WOQLClient to squash commits in your branch's history.*
+*How-to use the JS WOQLClient to squash commits in your branch's history.*
 
 Squashing allows you to combine multiple commits in your branch's history into a single commit.
 
