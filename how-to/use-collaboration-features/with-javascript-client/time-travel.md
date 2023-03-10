@@ -1,13 +1,12 @@
 # Time Travel through your database history
 
-*How-to Time Travel To navigate to a specific commit*
+*How-to time travel to a specific commit*
 
-Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md), created different [branches](./branch-projects.md)
+Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md), created a database, and made a few commits, you can time travel to inspect them to see what they looked like.
 
 ## Get the branch commits list
 
-You can use the WOQL library method to get you branch commit using pagination
-In the example below, you are get the last 10 commits starting from the branch head 
+You can use the JS WOQL Client Library method to get a list of branch commits. This example uses paginationto get the last 10 commits starting from the branch head -
 
 ```js
 const getCommits= async () => {
@@ -16,6 +15,8 @@ const getCommits= async () => {
 }
 ```
 ## Get the branch commits list starting by a specific timestamp
+
+You can also get a list of commits from a specific timestamp. The timestamp can be obtained from the log - 
 
 ```js
 const getCommitsByTime= async () => {
@@ -69,10 +70,9 @@ a response example
    ]
 ```
 
-## To time travel to you changes make the client point to a specific commit
+## Time travel and point the client to a specific commit
 
-You are registering your commit id in woqlClient parameters, all your calls will be made 
-for this point 
+To travel back in time to a particular commit, you need to specify the commit ID in the JS woqlClient parameters. To obtain the commit ID, refer to the code snippet above. All your calls after will be made for this commit. 
 
 ```js
 const getDocumentsAtCommit= async () => {
@@ -81,6 +81,3 @@ const getDocumentsAtCommit= async () => {
 }
 
 ```
-
-
-
