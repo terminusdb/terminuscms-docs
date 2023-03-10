@@ -23,8 +23,6 @@ const createNewDB = async () => {
 ​
 ```
 
-After the database will be created the client will be connected with it.
-
-Try out the five-part tutorial to get to grips with it.
+After the database is created the client will be connected to it.
 
 > Try out the [Getting Started with the TerminusDB JavaScript Client](https://github.com/terminusdb/terminusdb-tutorials/blob/main/getting_started/javascript-client/lesson_1.md) five-part tutorial to get to grips with it.
