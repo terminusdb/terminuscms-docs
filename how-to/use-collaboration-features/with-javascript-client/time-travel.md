@@ -2,6 +2,8 @@
 
 *How-to Time Travel To navigate to a specific commit*
 
+Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md), created different [branches](./branch-projects.md)
+
 ## Get the branch commits list
 
 You can use the WOQL library method to get you branch commit using pagination
@@ -73,7 +75,7 @@ You are registering your commit id in woqlClient parameters, all your calls will
 for this point 
 
 ```js
-const getDocumentsForCommit= async () => {
+const getDocumentsAtCommit= async () => {
     client.ref("onckvm1q9u98j5momtsfxia3optjkdi")
     const docs = await client.getDocument({graph_type:"schema"})
 }
