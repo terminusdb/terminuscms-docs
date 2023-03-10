@@ -1,9 +1,8 @@
-# Delete a  Document
+# Delete a Document
 
-*How-to delete a document to TerminusDB and TerminusCMS using the JavaScript Client*
+*How-to delete a document in TerminusDB and TerminusCMS using the JavaScript Client*
 
-After you have added some documents in your database you can need to delete them. 
-In order to delete a document you need to know the id
+In order to delete a document you need to know the document id.
 
 ```js
 const deleteDoc = async () => {
