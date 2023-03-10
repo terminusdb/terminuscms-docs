@@ -4,7 +4,7 @@
 
 Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md) and [created a database](../../use-the-clients/javascript-client/create-a-database.md) you can then create a branch of your project.
 
-Creating a branch is the same for TerminusDB and TerminusCMS. By deafult in TerminusDB or TerminusCMS you are working in the main branch.
+Creating a branch is the same for TerminusDB and TerminusCMS. By default in TerminusDB or TerminusCMS you are working in the main branch.
 
 ## Create a new branch from main branch
 Use this code to create a new branch starting from branch main head.
