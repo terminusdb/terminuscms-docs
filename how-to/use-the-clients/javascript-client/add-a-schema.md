@@ -2,7 +2,7 @@
 
 *Add a schema to TerminusDB and TerminusCMS using the TerminusDB JavaScript Client*
 
-After you have imported the terminusdb_client, and [created a client](./connect-to-javascript-client.md), and [connected to a database](./connect-to-a-database.md) you can create a schema.
+After you have imported the terminusdb_client, [created a client](./connect-to-javascript-client.md), and [connected to a database](./connect-to-a-database.md) you can create a schema.
 
 ## Create a schema
 
