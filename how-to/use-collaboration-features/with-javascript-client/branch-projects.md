@@ -1,9 +1,10 @@
-# Branch a Projects
+# Branch a Project
 
-*How-to create a new branch to TerminusDB and TerminusCMS using the JavaScript Client*
+*How-to create a new branch in TerminusDB and TerminusCMS using the JavaScript Client*
 
-Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md), [created a database](../../use-the-clients/javascript-client/create-a-database.md) creating a branch is the same for TerminusDB and TerminusCMS -
-By deafult in TerminusDB or TerminusCMS you are working in the main branch.
+Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md) and [created a database](../../use-the-clients/javascript-client/create-a-database.md) you can then create a branch of your project.
+
+Creating a branch is the same for TerminusDB and TerminusCMS. By deafult in TerminusDB or TerminusCMS you are working in the main branch.
 
 ## Create a new branch from main branch
 Use this code to create a new branch starting from branch main head.
@@ -17,8 +18,9 @@ const createBranch = async () => {
 ```
 ## Create a new branch from mybranch branch
 
-Now you are in branch mybranch.
-You can create a new branch starting from "mybranch" head
+Now you are in the branch called `mybranch`.
+
+You can create a new branch starting from the `mybranch` head
 
 
 ```js
@@ -28,8 +30,8 @@ const createBranchFromMyBranch = async () => {
 }   
 ```
 
-## Get the branch list
-you can get the database's branch list using a [WOQL]() library method 
+## Get a branch list
+Get all of the database's branches in a list using a [WOQL]() library method 
 
 ```js
 
@@ -95,7 +97,7 @@ Response example
    ]
 ```
 
->Check the [WOQL documentation]()
+
 
 
 
