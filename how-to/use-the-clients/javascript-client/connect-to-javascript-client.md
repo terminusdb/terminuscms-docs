@@ -3,7 +3,7 @@
 
 *How to connect to TerminusDB and TerminusCMS using the JavaScript Client*
 
-First, you should install the JavaScript Client. See here for [install instructions](/..)
+Ensure you have installed the JavaScript Client. See here for [installation instructions](/..)
 
 ## Connecting with the JavaScript Client
 
