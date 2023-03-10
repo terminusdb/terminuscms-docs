@@ -2,7 +2,7 @@
 
 *How-to add documents to TerminusDB and TerminusCMS using the JavaScript Client*
 
-After you have imported the terminusdb_client, and [created a client](./connect-to-javascript-client.md), and [connected to a database](./connect-to-a-database.md), and [added a schema](./add-a-schema.md), you can then use this client to insert a document that conforms to the schema.
+After you have imported the terminusdb_client, [created a client](./connect-to-javascript-client.md), [connected to a database](./connect-to-a-database.md), and [added a schema](./add-a-schema.md), you can then use this client to insert a document that conforms to the schema.
 
 ## Insert documents
 
