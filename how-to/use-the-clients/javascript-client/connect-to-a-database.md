@@ -3,7 +3,7 @@ How to connect to an existing database using the TerminusDB JavaScript Client
 
 Assuming you have [connected with the JavaScript Client](./connect-to-javascript-client.md), connecting to a database is the same for TerminusDB and TerminusCMS -
 
-You are registering your database in woqlClient parameters, all your calls will be made to this db
+The example code below registers your database in woqlClient parameters and then all your calls will be made to this db -
 
 ```js
 
