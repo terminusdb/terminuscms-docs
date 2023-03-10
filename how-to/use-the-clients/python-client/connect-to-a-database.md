@@ -16,7 +16,7 @@ client.connect(db="nuclear", team=team, use_token=True)
 
 ## TerminusDB
 
-You can connect to a database with basic authorisation just by using
+You can connect to a database with basic authorization just by using
 the `connect` member function.
 
 ```python
