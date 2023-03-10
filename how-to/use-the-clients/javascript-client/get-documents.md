@@ -2,7 +2,29 @@
 
 *How-to get documents to TerminusDB and TerminusCMS using the JavaScript Client*
 
-After you have added some documents in your database you can get a list of documents using getDocument as_list.  The 
+## Get a single document
+
+To get a single document to make changes or simply to view it, use the following code - 
+
+```js
+const getDoc = async () => {
+  const doc = await client.getDocument({id:"Player/Doug"});
+  console.log("Player/Doug", doc)
+}
+```
+
+```json
+ {
+    '@id'   : 'Player/Doug',
+    '@type' : 'Player',
+    name    : 'Doug',
+    position: 'Full Back'
+  }
+```
+
+## Get a list of all documents
+
+Get a list of all documents in the database using getDocument as_list.  The 
 results are shown further below.
 
 ```js
