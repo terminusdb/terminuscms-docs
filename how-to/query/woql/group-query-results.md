@@ -6,10 +6,10 @@
 > TerminusCMS. You will then have full access to the data needed for
 > this tutorial.
 
-## How to use `GroupBy`
+## How to use `group_by`
 
 If we need to group variables according to some criteria, we can
-create an aggregate of solutions using `groupBy`.
+create an aggregate of solutions using `group_by`.
 
 A group by is composed of a *focus*, a *template*, and a *group*
 together with a query.
