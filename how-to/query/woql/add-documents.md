@@ -8,7 +8,7 @@
 
 ## Add a document in WOQL
 
-You can add a document in WOQL using the `insert_ocument` keyword.
+You can add a document in WOQL using the `insert_document` keyword.
 
 ```javascript
 let v = Vars("id");
