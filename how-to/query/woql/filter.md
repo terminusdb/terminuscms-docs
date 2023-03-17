@@ -6,7 +6,7 @@
 > TerminusCMS. You will then have full access to the data needed for
 > this tutorial.
 
-Since WOQL is a datalog, filter are just part of the query. You can
+Since WOQL is a datalog, filters are just part of the query. You can
 express negative information, or constraints on the variables in order
 to get a restriction down to the things you want.
 
@@ -101,7 +101,7 @@ select(v.person_name, v.vehicle_name)
        regex("W.*", v.vehicle_name, [v.pattern]))
 ```
 
-In which case we get:
+In this case, we get:
 
 ```json
 [ {"person_name": {"@type":"xsd:string", "@value":"Darth Vader"},
