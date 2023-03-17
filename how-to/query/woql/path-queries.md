@@ -1,4 +1,4 @@
-# How to group results in WOQL
+# Path Queries in WOQL
 
 > :note:
 > To use this HowTo, first [clone the Star Wars
