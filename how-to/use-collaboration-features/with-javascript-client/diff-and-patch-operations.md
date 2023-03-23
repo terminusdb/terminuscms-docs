@@ -12,14 +12,14 @@ const diffObjects = async () => {
    const after = { "@id" : "Person/Jane", "@type" : "Person", "name" : "Janine"}
    const options = {keep:{ "@id" : true, "name" : true }}
    
-   //in options you can list the properties that you would like to see in the diff result in any case.
+   //in the options you can list the properties that you would like to see in the diff result.
    const diffResult = await client.getJSONDiff = function (before, after, options) {
 
    console.log("the diff result ", JSON.stringify(diffResult,null,4))
 }
 
 ```
-Here an example of objects diff result
+Here is an example of a diff result between two objects
 
 ```json
 {
@@ -33,7 +33,7 @@ Here an example of objects diff result
 ```
 
 
-## Get the patch of difference between branches or commits.
+## Get the patch of differences between branches or commits.
 
 ```js
 const diffDocsVersion = async () => {
@@ -48,7 +48,7 @@ const diffDocsVersion = async () => {
 
 ```
 
-here a result example
+Here is the example result
 
 ```json
 [
@@ -84,7 +84,7 @@ const diffDocToObject = async () => {
    const jsonObject = { "@id" : "Person/Jane", "@type" : "Person", "name" : "Jannet"}
    const options = {keep:{ "@id" : true, "name" : true }}
    
-   //in options you can list the properties that you would like to see in the diff result in any case.
+   //in the options you can list the properties that you would like to see in the diff result.
    const diffResult = await client.getVersionObjectDiff = function ("main", jsonObject, "Person/Jane", options) {
 
    console.log("the diff result ", JSON.stringify(diffResult,null,4))
