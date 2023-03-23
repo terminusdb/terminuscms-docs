@@ -16,3 +16,4 @@ with open('test.csv', 'r') as f:
     objects = list(csv_reader)
 
 client.insert_document(objects)
+```
