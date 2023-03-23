@@ -1,9 +1,9 @@
 # Run a WOQl Query
-How to connect to an existing database using the TerminusDB JavaScript Client
+*A quick example showing you how to query using WOQL*
 
-Assuming you have [connected with the JavaScript Client](./connect-to-javascript-client.md), connecting to a database, create e schema and insert data, now you would like to query you data
+Assuming you have [connected with the JavaScript Client](./connect-to-javascript-client.md), have a database, added a schema and some data, you now would like to query the database.
 
-The example code below show a simple query that return all you databse triples 
+The example code below shows a simple query that returns all of the database's triples 
 
 ```js
     const runQuery = async () => {
@@ -16,3 +16,5 @@ The example code below show a simple query that return all you databse triples
     }    
 
 ```
+
+For more information and examples about querying with WOQL please see the [how-to query with WOQL guide](../../how-to/query/woql)
