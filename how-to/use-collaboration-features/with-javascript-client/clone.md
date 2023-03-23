@@ -4,12 +4,12 @@
 
 ## Clone a database from terminusdb.com to your local machine
 
-Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md) locally
+Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-with-the-javascript-client.md) you can clone your database.
 
-Cloning a database pulls down a full copy of all the data that the db has at that point in time, including all versions of every documents and schema.
+Cloning a database pulls down a full copy of all data at that point in time, including all document and schema versions.
 
 If the database that you are cloning is not public, you need to provide an APIKey to the client setting the remoteAuth
-For more info see [How to get your API key](https://terminusdb.com/docs/terminuscms/get-api-key)
+For more info visit the ['How to get your API key'](https://terminusdb.com/docs/terminuscms/get-api-key) page.
 
 ```js
 const cloneLocally = async () => {
