@@ -16,7 +16,7 @@ Sign up for TerminusCMS for free at: [https://dashboard.terminusdb.com](https://
 
 Verify your email address by clicking on the link emailed to you and logging in.
 
-Click get started on the Community Package and then select the automatically generated team.&#x20;
+Click 'get started' on the Community Package and then select the automatically generated team.&#x20;
 
 From here, clone one of the demo projects to play around with -
 
