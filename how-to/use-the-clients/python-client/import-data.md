@@ -1,6 +1,6 @@
 # Import data with the Python client
 
-This how-to assumes that you are already connected to a database and made a schema that matches the CSV you want to import.
+This how-to assumes that you are already connected to a database and have a schema that matches the CSV you want to import.
 
 ## Importing a CSV file
 
