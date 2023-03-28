@@ -23,8 +23,14 @@ Check the TerminusCMS dashboard for a database that you want to clone.
 In this how-to, we will be using the Lego database as an example.
 
 ```python
-clone_url = 'https://cloud.terminusdb.com/Terminusdb_demo/Terminusdb_demo/lego'
-client.clonedb(clone_url, 'my_lego')
+clone_url = 'https://cloud.terminusdb.com/MyTeam/Terminusdb_demo/lego'
+client.clonedb(clone_url, 'my_lego', remote_auth={'type': 'token': 'key': 'YOUR_API_TOKEN_HERE'})
 ```
 
 You now have the my_lego database cloned in your TerminusCMS team.
+
+To verify whether the database has been succesfully cloned, you can run:
+
+```python3
+client.get_database('my_lego')
+```
