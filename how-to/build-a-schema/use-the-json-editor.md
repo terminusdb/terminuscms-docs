@@ -8,15 +8,15 @@ interface using the JSON view.
 First, log in to TerminusCMS, choose (or create) a team, and then
 click on "New Data Product".
 
-[Picture]
+<img src="https://assets.terminusdb.com/docs/new-data-product.png" alt="Create a new product with the TerminusCMS or TerminusDB dashboard">
 
 ## Create a schema as JSON
 
 Now click on the pink-bubbles on the left pannel. This takes you to
-the schema builder page. In this page, you'll see displayed your
+the schema builder page. Select JSON view from the tab and you'll see your
 entire schema as JSON.
 
-[Picture]
+<img src="https://assets.terminusdb.com/docs/schema-as-code.png" alt="TerminusCMS schema editor JSON view">
 
 If you click on the Edit button in the upper right hand corner, you'll
 be able to directly edit the schema.
