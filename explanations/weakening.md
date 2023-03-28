@@ -60,7 +60,7 @@ desired changes.
 Later in schema evolution, there will be clients that rely on the
 shape of data, and any strong change will require filling data,
 deleting data, or modifying data which is associated with the existing
-schema. This strong changes will *require* [schema
+schema. This strong change will *require* [schema
 migration](../reference-guides/schema-migration.md).
 
 This also means that we need to pay special attention to keeping the
