@@ -41,7 +41,7 @@ The screen has four tabs -
 
 ### Review Change Requests
 
-On the change request screen, select review. Change requests that users have submitted for review are listed in chronological order.
+On the change request screen, select 'review'. Change requests that users have submitted for review are listed in chronological order.
 
 <div>
 
