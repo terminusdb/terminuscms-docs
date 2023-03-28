@@ -10,9 +10,9 @@ TerminusCMS is free to get started. When you sign up, you are assigned the commu
 
 ### Steps to get started
 
-1. Sign up at [https://dashboard.terminusdb.com](https://dashboard.terminusdb.com)
-2. Take a look through the [product tour](product-tour/) to familiarise yourself with TerminusCMS
-3. Install the [JavaScript](../how-to/use-the-clients/javascript-client/connect-to-javascript-client.md) or [Python](../how-to/use-the-clients/python-client/connect-to-python-client.md) Client
+1. Sign up at [https://dashboard.terminusdb.com.](https://dashboard.terminusdb.com)
+2. Take a look through the [product tour](product-tour/) to familiarise yourself with TerminusCMS.
+3. Install the [JavaScript](../how-to/use-the-clients/javascript-client/connect-to-javascript-client.md) or [Python](../how-to/use-the-clients/python-client/connect-to-python-client.md) Client.
 4. [Get your API key to use a client with TerminusCMS.](../how-to/manage-your-projects/get-your-api-token.md)
 5. [Familiarize yourself with the client API](../how-to/use-the-clients/) to start building with TerminusCMS.
 
