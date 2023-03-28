@@ -9,7 +9,7 @@
 We can get a document by Id, by using `read_document`. For instance,
 we can write:
 
-```
+```javascript
 let v = Vars("doc", "id");
 and(isa(v.id, "People"),
     triple(v.id, "label", string("Bossk")),
