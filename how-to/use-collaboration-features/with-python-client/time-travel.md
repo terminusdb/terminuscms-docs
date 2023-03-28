@@ -2,82 +2,40 @@
 
 *How-to time travel to a specific commit*
 
-Assuming you have [connected with the JavaScript Client](../../use-the-clients/javascript-client/connect-to-javascript-client.md), created a database, and made a few commits, you can time travel to inspect them to see what they looked like.
+Assuming you have [connected with the Python Client](../../use-the-clients/python-client/connect-with-python-client.md), created a database, and made a few commits, you can time travel to inspect them to see what they looked like.
 
-## Get the branch commits list
+## Get the commits list
 
 You can use the JS WOQL Client Library method to get a list of branch commits. This example uses paginationto get the last 10 commits starting from the branch head -
 
-```js
-const getCommits= async () => {
-    const commits = await TerminusClient.WOQL.lib().commits("mybranch", 10 ,0);
-    console.log("Show the last 10 commits", JSON.stringify(commits.bindings,null,4))
-}
-```
-## Get the branch commits list starting with a specific timestamp
+```python
+from terminusdb_client import Client
 
-You can also get a list of commits from a specific timestamp. The timestamp can be obtained from the log - 
-
-```js
-const getCommitsByTime= async () => {
-    const commits = await TerminusClient.WOQL.lib().commits("mybranch", 10 ,0, 1678385999.7790234);
-    console.log("Show the last 10 commits before the timestamp", JSON.stringify(commits.bindings,null,4))
-}
+client = Client('http://localhost:6363')
+client.connect(key='root', user='root', team='root' db='your_db')
+commits = client.logs(count=10)
+print(commits)
 ```
 
-a response example
+A response example will be a list of objects like this:
 
 ```json
-[
-      {
-         "Author":{
-            "@type":"xsd:string",
-            "@value":"myuser@terminusdb.com"
-         },
-         "Commit ID":{
-            "@type":"xsd:string",
-            "@value":"prh0yvftqmsrgctn8gqvdxv7gc4i8p8"
-         },
-         "Message":{
-            "@type":"xsd:string",
-            "@value":"Update from model builder"
-         },
-         "Parent ID":"terminusdb://ref/data/ValidCommit/onckvm1q9u98j5momtsfxia3optjkdi",
-         "Time":{
-            "@type":"xsd:decimal",
-            "@value":1678385762.7790234
-         }
-      },
-      {
-         "Author":{
-            "@type":"xsd:string",
-            "@value":"myuser@terminusdb.com"
-         },
-         "Commit ID":{
-            "@type":"xsd:string",
-            "@value":"onckvm1q9u98j5momtsfxia3optjkdi"
-         },
-         "Message":{
-            "@type":"xsd:string",
-            "@value":"Update from model builder"
-         },
-         "Parent ID":null,
-         "Time":{
-            "@type":"xsd:decimal",
-            "@value":1678385749.9860663
-         }
-      }
-   ]
+               {
+                "@id":"InitialCommit/hpl18q42dbnab4vzq8me4bg1xn8p2a0",
+                "@type":"InitialCommit",
+                "author":"system",
+                "identifier":"hpl18q42dbnab4vzq8me4bg1xn8p2a0",
+                "message":"create initial schema",
+                "schema":"layer_data:Layer_4234adfe377fa9563a17ad764ac37f5dcb14de13668ea725ef0748248229a91b",
+                "timestamp":1660919664.9129035
+               }
 ```
 
 ## Time travel and point the client to a specific commit
 
-To travel back in time to a particular commit, you need to specify the commit ID in the JS woqlClient parameters. To obtain the commit ID, refer to the code snippet above. All your calls after will be made for this commit. 
+To travel back in time to a particular commit, you need to specify the commit ID in the ref property. To obtain the commit ID, refer to the code snippet above. All your calls after will be made for this commit.
 
-```js
-const getDocumentsAtCommit= async () => {
-    client.ref("onckvm1q9u98j5momtsfxia3optjkdi")
-    const docs = await client.getDocument({graph_type:"schema"})
-}
-
+```python
+client.ref = "hpl18q42dbnab4vzq8me4bg1xn8p2a0")
+docs = client.get_all_documents()
 ```
