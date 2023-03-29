@@ -12,13 +12,13 @@ click on "New Data Product".
 
 ## Create a schema as JSON
 
-Now click on the pink-bubbles on the left pannel. This takes you to
+Now click on the pink bubbles on the left panel. This takes you to
 the schema builder page. Select JSON view from the tab and you'll see your
 entire schema as JSON.
 
 <img src="https://assets.terminusdb.com/docs/schema-as-code.png" alt="TerminusCMS schema editor JSON view">
 
-If you click on the Edit button in the upper right hand corner, you'll
+If you click on the Edit button in the upper right-hand corner, you'll
 be able to directly edit the schema.
 
 If you have no data in your database, it should be possible to freely
