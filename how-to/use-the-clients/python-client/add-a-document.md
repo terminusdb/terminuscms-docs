@@ -1,36 +1,30 @@
-# Adding a Document to TerminusCMS in the Python Client
+# Add Documents
 
-After you have imported the `terminusdb_client`, and [created a
-client](connect-with-python-client.md), and [connected to a
-database](connect-to-a-database.md), as well as [added some
-schema](add-a-schema.md), you can then use this client to insert a
-document which conforms to the schema.
+*How-to add documents to TerminusDB and TerminusCMS using the Python Client*
 
-## Insert a document
+After you have imported the terminusdb_client, [created a client](./connect-with-python-client.md), [connected to a database](./connect-to-a-database.md), and [added a schema](./add-a-schema.md), you can insert a document that conforms to the schema.
 
-To insert a document, you should use `insert_document`:
+## Insert documents
 
+You can add documents to the database by using the `add_document` function:
 ```python
-docment = { '@type' : 'Person', 'name' : "Jim" }
-results = client.insert_document(document)
+documents = [
+    {
+        "@type"   : "Player",
+        "name"    : "George",
+        "position": "Center Back",
+    },
+    {
+        "@type"   : "Player",
+        "name"    : "Doug",
+        "position": "Full Back",
+    },
+    {
+        "@type"   : "Player", 
+        "name"    : "Karen", 
+        "position": "Center Forward" 
+    }
+]
+client.insert_document(documents)
 ```
 
-## Insert multiple documents
-
-To insert multiple documents you can also invoke `insert_document`:
-
-```python
-docments = [{ '@type' : 'Person', 'name' : "Jim" },
-            { '@type' : 'Person', 'name' : "Jill" }]
-results = client.insert_document(document)
-```
-
-## Insert schema document(s)
-
-Additionally, you can update the schema itself by adding schema
-documents:
-
-```python
-schema = { '@type' : 'Class', '@id' : 'Person', 'name' : 'xsd:string'}
-results = client.insert_document(schema,graph_type="schema")
-```
