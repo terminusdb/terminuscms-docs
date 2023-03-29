@@ -8,7 +8,7 @@ This how-to will show how to clone a public database from TerminusCMS into your 
 
 ## Running the Python client with the API Token
 
-Be sure to construct the Python client object first, and set the appropiate authentication token.
+Be sure to construct the Python client object first, and set the appropriate authentication token.
 
 ```python
 from terminusdb_client import Client
@@ -29,7 +29,7 @@ client.clonedb(clone_url, 'my_lego', remote_auth={'type': 'token': 'key': 'YOUR_
 
 You now have the my_lego database cloned in your TerminusCMS team.
 
-To verify whether the database has been succesfully cloned, you can run:
+To verify whether the database has been successfully cloned, you can run:
 
 ```python3
 client.get_database('my_lego')
