@@ -18,7 +18,7 @@ the schema builder page.
 
 Hover over the gray schema bubble in the centre of the graph view.
 
-<img src="https://assets.terminusdb.com/docs/schema-as-code.png" alt="JSON schema editor in the TerminusCMS dashboard">
+<img src="https://assets.terminusdb.com/docs/schema-ui-no-docs.png" alt="JSON schema editor in the TerminusCMS dashboard">
 
 This will give you a `+` icon. This will allow you to add either a
 document class, or an enum. Choose *document*.
