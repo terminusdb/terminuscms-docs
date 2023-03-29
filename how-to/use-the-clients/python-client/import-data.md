@@ -4,8 +4,8 @@ This how-to assumes that you are already connected to a database and have a sche
 
 ## Importing a CSV file
 
-You can import CSV files easily by importing them into dictionaries using Python's built-in libaries.
-Those dictionary objects can be inserted in the database using the `insert_document` function.
+You can import CSV files easily by importing them into dictionaries using Python's built-in libraries.
+Those dictionary objects can be inserted into the database using the `insert_document` function.
 
 ```python
 import csv
