@@ -13,17 +13,17 @@ click on `New Data Product`.
 
 ## Create a Class
 
-Now click on the pink-bubbles on the left pannel. This takes you to
+Now click on the pink bubbles on the left panel. This takes you to
 the schema builder page.
 
-Hover over the gray schema bubble in the centre of the graph view.
+Hover over the gray schema bubble in the center of the graph view.
 
 <img src="https://assets.terminusdb.com/docs/schema-ui-no-docs.png" alt="JSON schema editor in the TerminusCMS dashboard">
 
 This will give you a `+` icon. This will allow you to add either a
-document class, or an enum. Choose *document*.
+document class or an enum. Choose *document*.
 
-The document will appear as an orange Square and on the right hand
+The document will appear as an orange Square and on the right-hand
 side you will have a panel for editing the schema. You can choose a
 name for your new document class under the field `Unique ID*`.
 
@@ -35,7 +35,7 @@ name of the document under `Label`.
 <img src="https://assets.terminusdb.com/docs/schema-ui-doc-properties.png" alt="Add document properties using the schema builder UI">
 
 Now you can switch the properties tab, and click on `Add
-Property`. This will give you a choice of a number of different
+Property`. This will give you a choice of several different
 property types. You can choose `String` for instance for various
 string properties.
 
