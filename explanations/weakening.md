@@ -16,10 +16,9 @@ Some examples of weakening include:
 * Adding a new class which is not the parent of any existing class is
 always valid since there are no elements of this class.
 
-* Adding a new *optional* property to a class is also permitted, as
-all
+* Adding a new *optional* property to a class is also permitted.
 
-* Changing a required field to *optional* or *set*
+* Changing a required field to *optional* or *set*.
 
 Schema weakening is often a desirable approach to schema change as we
 do not require alterations to any of our data. This can ensure a form
