@@ -7,7 +7,7 @@ few commits, you can reset the HEAD of a database to a particular commit. Just l
 
 ## Get the commits list
 
-You can use the JS WOQL Client Library method to get a list of branch commits. This example uses paginationto get the last 10 commits starting from the branch head -
+You can use the Python Client Library method to get a list of branch commits. This example uses pagination to get the last commits starting from the branch head -
 
 ```python
 from terminusdb_client import Client
