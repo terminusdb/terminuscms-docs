@@ -9,6 +9,15 @@ Assuming you have [connected with the Python Client](../../use-the-clients/pytho
 You can use the Python WOQL Client Library method to get a list of branch commits. This example uses pagination to get the last 10 commits starting from the branch head -
 
 ```python
+// For TerminusCMS
+from terminusdb_client import Client
+
+client = Client('https://cloud.terminusdb.com/MyTeam')
+client.connect(team='MyTeam' db='your_db', api_token='YOUR_API_TOKEN_HERE')
+commits = client.logs(count=10)
+print(commits)
+
+// For TerminusDB
 from terminusdb_client import Client
 
 client = Client('http://localhost:6363')
