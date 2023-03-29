@@ -1,8 +1,8 @@
-#Time travel using the TerminusCMS dashboard
+# Time travel using the TerminusCMS dashboard
 
 *Time travel to any previous commit using the TerminusCMS dashboard*
 
-It is possible in the TerminusCMS dashboard to time travel to any previous commit to examine the data and schema. This is particuarly useful if you want to see what something looked like at a particular date, or if something has broken and you want to see when the last stable state was so you can revert back to it.
+It is possible in the TerminusCMS dashboard to time travel to any previous commit to examine the data and schema. This is particularly useful if you want to see what something looked like at a particular date, or if something has broken and you want to see when the last stable state was so you can revert back to it.
 
 Time travel is each to do. From any screen when viewing a project (apart from the project home page), you will see a `stopwatch symbol` in the top bar.
 
