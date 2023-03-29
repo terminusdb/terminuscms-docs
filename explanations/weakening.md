@@ -23,18 +23,18 @@ always valid since there are no elements of this class.
 Schema weakening is often a desirable approach to schema change as we
 do not require alterations to any of our data. This can ensure a form
 of backward compatibility which can avoid problems in long term
-maintainence.
+maintenance.
 
 ## Using weakened schemas safely
 
 The *weakening* approach also suggests an appropriate style for the
-consumption of data which is recieved by clients. The exact shape of a
+consumption of data that is received by clients. The exact shape of a
 document should not be relied on, as new optional properties could be
 added, and required properties could be weakened to become
 optional.
 
 We should instead test for the existence of a field, before attempting
-to consume it, and we should avoid clients requiring fields which are
+to consume it, and we should avoid clients requiring fields that are
 not part of a *key*.
 
 ## Why do schemas evolve?
@@ -42,7 +42,7 @@ not part of a *key*.
 Schema evolution can happen at various phases in data product
 development.
 
-In the beginning of schema development it is often the case that the
+At the beginning of schema development, it is often the case that the
 schema evolves very rapidly as we try to capture the important
 information for consideration or change the way it should be
 represented.
