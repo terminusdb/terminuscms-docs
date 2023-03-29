@@ -10,6 +10,15 @@ few commits, you can reset the HEAD of a database to a particular commit. Just l
 You can use the Python Client Library method to get a list of branch commits. This example uses pagination to get the last commits starting from the branch head -
 
 ```python
+//For TerminusCMS
+from terminusdb_client import Client
+
+client = Client('https://cloud.terminusdb.com/MyTeam')
+client.connect(team='MyTeam' db='your_db', api_token='YOUR_API_TOKEN_HERE')
+commits = client.logs(count=10)
+print(commits)
+
+// For TerminusDB
 from terminusdb_client import Client
 
 client = Client('http://localhost:6363')
