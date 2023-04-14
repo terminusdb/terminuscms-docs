@@ -2,7 +2,7 @@
 
 *Squash the commits of a branch or main into one large commit using the TerminusCMS dashboard.*
 
-To squash a branch of a database, or indeed main, navigate to the project home page, the first icon on left that looks like a databasse.
+To squash a branch of a database, or indeed main, navigate to the project home page, the first icon on the left that looks like a database.
 
 Scroll down to the `Manage Branches` section and selected `Branches`.
 

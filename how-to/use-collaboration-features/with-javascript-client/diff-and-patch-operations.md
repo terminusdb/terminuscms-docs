@@ -1,8 +1,8 @@
 # Diff
 
-*How-to use the JS WOQLClient to diff a specific object or a database branch data version*
+*How-to use the JS Client to diff an object or a database branch*
 
-## Diff a specific object
+## Diff an object
 
 Return the diff from two objects
 
@@ -77,7 +77,7 @@ Here is the example result
 
 
 
-## Get the patch of difference between a documents and an object.
+## Get the patch of difference between a document and an object.
 
 ```js
 const diffDocToObject = async () => {

@@ -18,7 +18,7 @@ Click the `new branch` button.
 
 Give the branch and ID.
 
-You have then have two choices:
+You then have two choices:
 
 1. Branch from the current head to include all of the data
 2. Create an empty branch
@@ -29,6 +29,6 @@ You will then be switched to that branch.
 
 ## Swap between branches
 
-From the manage branch section use the ellipsis symbol next to the branches to swtich between branches and main.
+From the manage branch section use the ellipsis symbol next to the branches to switch between branches and main.
 
 <figure><img src="https://assets.terminusdb.com/docs/branch-options.png" alt="Branch Options"><figcaption></figcaption></figure>
