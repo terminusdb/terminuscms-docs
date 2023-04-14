@@ -24,9 +24,11 @@ ordered list of operations. The operations are sometimes order
 dependent so different operations orders can lead to different changes
 to the instance data.
 
-Some operations are known as *weakening* operations, as they can
-always be performed without altering the existing instance data. These
-are essentially *backward* compatible operations.
+Some operations are known as [weakening](../explanations/weakening.md)
+operations, as they can always be performed without altering the
+existing instance data. These are essentially *backward compatible*
+operations. This includes changing a range to a less specific or
+optional range, adding new optional fields, or adding new classes.
 
 ## DeleteClass
 
@@ -46,26 +48,26 @@ An example of the operation would be:
 
 ```json
 { "@type" : "DeleteClass",
-  "class" : "MyClass" }
+  "class" : "Person" }
 ```
 
 Which would take the schema:
 
 ```json
-{ "@id" : "OtherClass",
+{ "@id" : "Dog",
   "@type" : "Class",
-  "some_property" : "xsd:string"}
-{ "@id" : "MyClass",
+  "name" : "xsd:string"}
+{ "@id" : "Person",
   "@type" : "Class",
-  "my_property" : "xsd:string" }
+  "name" : "xsd:string" }
 ```
 
 to:
 
 ```json
-{ "@id" : "OtherClass",
+{ "@id" : "Dog",
   "@type" : "Class",
-  "some_property" : "xsd:string"}
+  "name" : "xsd:string"}
 ```
 
 ## CreateClass
@@ -78,33 +80,35 @@ created. This operation is always a *weakening* operation.
   "class_document" : <ClassDocument> }
 ```
 
+### Example
+
 The migration:
 
 ```json
 { "@type" : "CreateClass",
   "class_document" :
-  { "@id" : "MyClass",
+  { "@id" : "Person",
     "@type" : "Class",
-    "my_property" : "xsd:string" } }
+    "name" : "xsd:string" } }
 ```
 
 Would take the schema:
 
 ```json
-{ "@id" : "OtherClass",
+{ "@id" : "Dog",
   "@type" : "Class",
-  "some_property" : "xsd:string"}
+  "name" : "xsd:string" }
 ```
 
 to:
 
 ```json
-{ "@id" : "OtherClass",
+{ "@id" : "Dog",
   "@type" : "Class",
-  "some_property" : "xsd:string"}
-{ "@id" : "MyClass",
+  "name" : "xsd:string"}
+{ "@id" : "Person",
   "@type" : "Class",
-  "my_property" : "xsd:string" }
+  "name" : "xsd:string" }
 ```
 
 ## MoveClass
@@ -114,5 +118,135 @@ instance data associated with that class. Due to the side-effects on
 instance data, this is not a *weakening* operation.
 
 ```json
+{ "@type" : "MoveClass",
+  "from" : <FromClassName>,
+  "to" : <ToClassName> }
+```
 
+### Example
+
+```json
+{ "@type" : "MoveClass",
+  "from" : "Person",
+  "to" : "Dog" }
+```
+
+Would take the schema:
+
+```json
+{ "@id" : "Person",
+  "@type" : "Class",
+  "name" : "xsd:string"}
+```
+
+to:
+
+```json
+{ "@id" : "Dog",
+  "@type" : "Class",
+  "name" : "xsd:string"}
+```
+
+## ReplaceClassMetadata
+
+The `ReplaceClassMetadata` operation replaces the metadata on a class
+(if it exists). This operation is always a *weakening* operation and
+has no effect on instance data.
+
+```json
+{ "@type" : "ReplaceClassMetadata",
+  "class" : <ClassName>
+  "metadata" : <Metadata> }
+```
+
+### Example
+
+The operation:
+
+```json
+{ "@type" : "ReplaceClassMetadata",
+  "class" : "Person",
+  "metadata" : { "ui_preferences" : { "colour" : "blue" } } }
+```
+
+Would take the schema:
+
+```json
+{ "@id" : "Person",
+  "@type" : "Class",
+  "@metadata" : { "ui_preferences" : { "colour" : "red" } },
+  "name" : "xsd:string"}
+```
+
+to:
+
+```json
+{ "@id" : "Dog",
+  "@type" : "Class",
+  "@metadata" : { "ui_preferences" : { "colour" : "blue" } },
+  "name" : "xsd:string" }
+```
+
+## ReplaceClassDocumentation
+
+The `ReplaceClassDocumentation` operation replaces the documentation
+on a class (if it exists). This operation is always a *weakening*
+operation and has no effect on instance data.
+
+
+```json
+{ "@type" : "ReplaceClassDocumentation",
+  "class" : <ClassName>
+  "documentation" : <Documentation> }
+```
+
+### Example
+
+The operation:
+
+```json
+{ "@type" : "ReplaceClassDocumentation",
+  "class" : "Person",
+  "documentation" : { "@comment" : "This is a person class",
+                      "@properties" : { "name" : { "@comment" : "The name of a person",
+                                                    "@label" : "name" } },
+                      "@label" : "Person" } }
+```
+
+Would take the schema:
+
+```json
+{ "@id" : "Person",
+  "@type" : "Class",
+  "@documentation" : { "@comment" : "A Person",
+                       "@properties" : { "name" : { "@comment" : "Name of a person",
+                                                    "@label" : "name" } },
+                       "@label" : "Person" },
+  "name" : "xsd:string"}
+```
+
+to:
+
+```json
+{ "@id" : "Person",
+  "@type" : "Class",
+  "@documentation" : { "@comment" : "This is a person class",
+                      "@properties" : { "name" : { "@comment" : "The name of a person",
+                                                   "@label" : "name" } },
+                      "@label" : "Person" },
+  "name" : "xsd:string"}
+```
+
+## ReplaceContext
+
+The `ReplaceContext` operation will update the context object, which
+will change how URIs are compressed when returning data.
+
+This operation is a *weakening* operation only when prefixes other than
+`@base` and `@schema` are changed. Otherwise, all data in the database
+will be moved to the new `@base` and `@schema` designations.
+
+```json
+{ "@type" : "ReplaceContext",
+  "context" : <Context> }
 ```
