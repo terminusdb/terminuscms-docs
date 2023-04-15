@@ -65,5 +65,3 @@ migration](../reference-guides/schema-migration.md).
 This also means that we need to pay special attention to keeping the
 two in sync. This can best be done by focusing on schema weakening,
 coupled with a defensive client style as described above.
-
-
