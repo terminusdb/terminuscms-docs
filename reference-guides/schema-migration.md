@@ -251,6 +251,17 @@ will be moved to the new `@base` and `@schema` designations.
   "context" : <Context> }
 ```
 
+## ExpandEnum
+
+The `ExpandEnum` operation will allow new fields to be added to an
+`Enum`. This operation is always a weakening operation.
+
+```json
+{ "@type" : "ExpandEnum",
+  "enum" : <EnumName>,
+  "values" : [<Value0>, ... <ValueN>] }
+```
+
 ### Example
 
 The command
@@ -314,16 +325,18 @@ unless a default is specified.
 
 ```json
 { "@type" : "CreateClassProperty",
-  "class" : <ClassName>
-  "property" : <PropertyName> }
+  "class" : <ClassName>,
+  "property" : <PropertyName>,
+  "type" : <Type> }
 ```
 
 Or
 
 ```json
 { "@type" : "CreateClassProperty",
-  "class" : <ClassName>
-  "property" : <PropertyName>
+  "class" : <ClassName>,
+  "property" : <PropertyName>,
+  "type" : <Type>,
   "default" : <DefaultValue> }
 ```
 
