@@ -45,7 +45,7 @@ If you specified a remote other than origin, you'll have to use the
 ## Step 4: Push your Data Product
 
 ```shell
-$ terminusdb push admin/supply_chain -t`cat ~/.info/dev-key-demo`
+$ terminusdb push admin/supply_chain -t`cat .TeamName_token_file`
 Pushing to remote 'origin'
 Remote updated (head is 66c36efbfde90f46ac981184d044eb165cfb518d)
 ```
