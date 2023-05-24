@@ -1,5 +1,4 @@
 ## Documents UI - GraphQL Table
-The component DocumentClassesSummary helps to compose dashboards quickly.
 
 This element allows you to visualize document classes using iteractive cards.
 
