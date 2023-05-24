@@ -1,6 +1,6 @@
 ## Documents UI - GraphQL Table
 
-This element allows you to visualize document classes using iteractive cards.
+The `DocumentsGraphqlTable` element allows you to visualize document classes using iteractive cards.
 
 ## Installation
 
