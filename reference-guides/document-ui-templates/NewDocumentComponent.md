@@ -1,11 +1,9 @@
 ## NewDocumentComponent
-The new document component help you to compose your dashboard very fast 
-This element allow you to create a new documents using the FrameViewer components from `....` and adding some useful tools.
-
+The new document component allows you to create new documents using the FrameViewer from `....`.
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
@@ -13,15 +11,15 @@ Install the dependancy from npm
  npm install @terminusdb/terminusdb-documents-ui-templates
 ```
 
-## Props
-| props |description  |
+## Properties
+| Properties |Description  |
 |--|--|
-|type|the document type
-|documentJson| the document object, it start empty ({}) for new
-|createDocument|A function which acts as a callback when the `submit` button is clicked
+|type|The document type
+|documentJson|The document object, it is empty ({}) for new
+|createDocument|A function that acts as a callback when the `submit` button is clicked
 |frames|The database Class Frame, or object of all class frames 
-|closeButtonClick|A function which acts as a callback when the panel exit `x` button is clicked
-|SearchComponent| a react component that should be used as search component  |
+|closeButtonClick|A function that acts as a callback when the panel exit `x` button is clicked
+|SearchComponent|A react component used as search component  |
 
 ## Example
 ```js
@@ -76,8 +74,10 @@ export const DocumentNew = ({type,tdbClient}) => {
 }
 ```
 
-you can see this code integrated inside a dashboard here
+View code integrated inside a dashboard here - 
+
 [DocumentSearchComponent example]()
+
 [Sandbox]
 
 
