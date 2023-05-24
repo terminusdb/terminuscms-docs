@@ -4,7 +4,7 @@ The `DocumentClassesSummary` element allows you to visualize document classes us
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
