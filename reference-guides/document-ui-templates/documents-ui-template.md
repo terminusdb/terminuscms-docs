@@ -2,7 +2,7 @@
 # TerminusDB Documents UI Template
 A Software Development Kit (SDK) to build a UI from @terminusdb/terminusdb-documents-ui and the @terminusdb/terminusdb-react-table. 
 
-You have the option to use our base components like the Frames Viewer and TDBReactTable. This template has components to assemble a dashboard quickly.
+This template has components to assemble a dashboard quickly. You also have the option to use our base components like the FramesViewer and TDBReactTable. 
 
 ## Installation
 Install the dependencies from npm
