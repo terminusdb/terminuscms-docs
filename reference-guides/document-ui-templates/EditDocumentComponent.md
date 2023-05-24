@@ -1,5 +1,5 @@
 # Edit Document Component
-The edit document component allows you to edit an existing document using the FrameViewer components from `....`.
+The `EditDocumentComponent` allows you to edit an existing document using the FrameViewer components from `....`.
 
 
 ## Installation
