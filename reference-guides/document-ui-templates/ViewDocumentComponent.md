@@ -1,11 +1,10 @@
 ## ViewDocumentComponent
-The edit document component help you to compose your dashboard very fast 
-This element allow you to edit a existing document using the FrameViewer components from `....` and adding some useful tools.
+The `ViewDocumentComponent` allows you to view existing documents using the FrameViewer components from `....`.
 
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
@@ -13,17 +12,17 @@ Install the dependancy from npm
  npm install @terminusdb/terminusdb-documents-ui-templates
 ```
 
-## Props
-| props |description  |
+## Properties
+| Properties |Description  |
 |--|--|
-|type|the document type
-|documentID| the document id 
-|documentJson| the document object 
+|type|The document type
+|documentID|The document ID 
+|documentJson|The document object 
 |frames|The database Class Frame, or object of all class frames 
-|closeButtonClick| A function which acts as a callback when the panel exit `x` button is clicked
-|deleteDocument| A function which acts as a callback when the delete button is clicked
-|editDocument| A function which acts as a callback when the edit button is clicked
-|getDocumentById| A function which acts as a callback when the inside the document interface a link property (a link to another document) is clicked 
+|closeButtonClick|A function that acts as a callback when the panel exit `x` button is clicked
+|deleteDocument| A function that acts as a callback when the delete button is clicked
+|editDocument| A function that acts as a callback when the edit button is clicked
+|getDocumentById| A function that acts as a callback when the a link property (a link to another document) is clicked inside the document interface 
 
 ## Example
 ```js
@@ -87,8 +86,10 @@ export const DocumentView = ({tdbClient,type, documentID}) => {
 }
 ```
 
-you can see this code integrated inside a dashboard here
+View the code integrated inside a dashboard here - 
+
 [DocumentSearchComponent example]()
+
 [Sandbox]
 
 
