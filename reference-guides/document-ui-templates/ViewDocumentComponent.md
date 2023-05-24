@@ -4,7 +4,7 @@ The `ViewDocumentComponent` allows you to view existing documents using the Fram
 
 ## Installation
 
-Install the dependancies from npm
+Install the dependencies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
