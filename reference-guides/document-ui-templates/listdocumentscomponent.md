@@ -1,10 +1,9 @@
-## ListDocumentComponent
-The component DocumentClassesSummary can help you to compose your dashboard very fast 
-This element allow you to visualize the document classes using iteractive cards.
+## ListDocumentsComponent
+The `ListDocumentsComponent` element allows you to list the document classes.
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
@@ -12,19 +11,19 @@ Install the dependancy from npm
  npm install @terminusdb/terminusdb-documents-ui-templates
 ```
 
-## Props
-| props |description  |
+## Properties
+| Properties |Description  |
 |--|--|
-|type| the document type
-|gqlQuery|the graphql query|
-|apolloClient| an apollo client instance [documentation](https://www.apollographql.com/docs/react/)|
-|tableConfig| an object with the table configuration|
-|onRowClick|A function which acts as a callback when the table row is clicked|
-|onViewButtonClick|A function which acts as a callback when the table row view button is clicked|
-|onEditButtonClick|A function which acts as a callback when the table row edit button is clicked|
-|onDeleteButtonClick|A function which acts as a callback when the table row delete button is clicked|
-|onCreateButtonClick|A function which acts as a callback when the create button is clicked|
-|showGraphqlTab|A boolean property that enabled the graph query view tab|
+|type|The document type
+|gqlQuery|The graphql query|
+|apolloClient|An apollo client instance - [documentation](https://www.apollographql.com/docs/react/)|
+|tableConfig|An object with the table configuration|
+|onRowClick|A function that acts as a callback when the table row is clicked|
+|onViewButtonClick|A function that acts as a callback when the table row view button is clicked|
+|onEditButtonClick|A function that acts as a callback when the table row edit button is clicked|
+|onDeleteButtonClick|A function that acts as a callback when the table row delete button is clicked|
+|onCreateButtonClick|A function that acts as a callback when the create button is clicked|
+|showGraphqlTab|A boolean property that enables the GraphQL query view tab|
 
 ## Example
 ```js
@@ -96,9 +95,12 @@ export const ListDocuments = ({type,apolloClient,tdbClient}) => {
 }
 ```
 
-you can see this code integrated inside a dashboard here
+View the code integrated inside a dashboard here -
+
 [ListDocuments full example code]()
+
 [ListDocumentComponent code]()
+
 [View the complete example in Sandbox]()
 
 
