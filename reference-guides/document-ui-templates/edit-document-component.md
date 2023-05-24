@@ -1,6 +1,5 @@
-## EditDocumentComponent
-The newedit document component help you to compose your dashboard very fast 
-This element allow you to edit a existing document using the FrameViewer components from `....` and adding some useful tools.
+# Edit Document Component
+The edit document component allows you to edit an existing document using the FrameViewer components from `....`.
 
 
 ## Installation
@@ -17,11 +16,11 @@ Install the dependancy from npm
 |--|--|
 |type|the document type|
 |documentJson| the document object|
-|documentID| the document id|
+|documentID| the document ID|
 |frames|The database Class Frame, or object of all class frames |
-|closeButtonClick|A function which acts as a callback when the panel exit `x` button is clicked|
-|updateDocument| A function which acts as a callback when the `submit` button is clicked|
-|SearchComponent| a react component that should be used as search component  |
+|closeButtonClick|A function that acts as a callback when the panel exit `x` button is clicked|
+|updateDocument| A function that acts as a callback when the `submit` button is clicked|
+|SearchComponent| A react component used as search component  |
 
 ## Example
 ```js
@@ -79,8 +78,10 @@ export const DocumentEdit = ({type, documentID, tdbClient}) => {
 }
 ```
 
-you can see this code integrated inside a dashboard here
+See the code integrated inside a dashboard here -
+
 [DocumentSearchComponent example]()
+
 [Sandbox]
 
 
