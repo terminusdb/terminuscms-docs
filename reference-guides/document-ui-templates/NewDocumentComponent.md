@@ -1,9 +1,9 @@
 ## NewDocumentComponent
-The new document component allows you to create new documents using the FrameViewer from `....`.
+The `NewDocumentComponent` allows you to create new documents using the FrameViewer from `....`.
 
 ## Installation
 
-Install the dependancies from npm
+Install the dependencies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
