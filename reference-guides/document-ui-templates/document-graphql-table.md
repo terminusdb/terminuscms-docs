@@ -1,10 +1,11 @@
-## DocumentsGraphqlTable
-The component DocumentClassesSummary can help you to compose your dashboard very fast 
-This element allow you to visualize the document classes using iteractive cards.
+## Documents UI - GraphQL Table
+The component DocumentClassesSummary helps to compose dashboards quickly.
+
+This element allows you to visualize document classes using iteractive cards.
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
 npm install @terminusdb/terminusdb-documents-ui
@@ -23,7 +24,7 @@ npm install @terminusdb/terminusdb-documents-ui-templates
 |onViewButtonClick|A function which acts as a callback when the table row view button is clicked|
 |onEditButtonClick|A function which acts as a callback when the table row edit button is clicked|
 |onDeleteButtonClick|A function which acts as a callback when the table row delete button is clicked|
-|showGraphqlTab|A boolean property that enabled the graph query view tab|
+|showGraphqlTab|A boolean property to enable the GraphQL query view tab|
 
 ## Example
 ```js
