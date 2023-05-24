@@ -11,12 +11,12 @@ Install the dependancy from npm
  npm install @terminusdb/terminusdb-react-table
  npm install @terminusdb/terminusdb-documents-ui-templates
 ```
-## Props
-| props |description  |
+## Properties
+| Properties |Description  |
 |--|--|
-|type|the document type|
-|documentJson| the document object|
-|documentID| the document ID|
+|type|The document type|
+|documentJson|The document object|
+|documentID|The document ID|
 |frames|The database Class Frame, or object of all class frames |
 |closeButtonClick|A function that acts as a callback when the panel exit `x` button is clicked|
 |updateDocument| A function that acts as a callback when the `submit` button is clicked|
