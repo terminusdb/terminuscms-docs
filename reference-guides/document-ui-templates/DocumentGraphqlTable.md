@@ -4,7 +4,7 @@ The `DocumentsGraphqlTable` element allows you to visualize document classes usi
 
 ## Installation
 
-Install the dependancies from npm
+Install the dependencies from npm
 
 ```
 npm install @terminusdb/terminusdb-documents-ui
