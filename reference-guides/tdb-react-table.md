@@ -1,46 +1,46 @@
   
 
 # TerminusDB React Table
-Learn how to include TerminusDB React Table components in your project.
+Learn how to include TerminusDB React Table components in your projects to display documents in an interactive table.
 
 ## Installation
-The best way to use @terminusdb/terminusdb-react-table is via the npm package which you can install with npm (or yarn if you prefer).
+The best way to use @terminusdb/terminusdb-react-table is via the npm package that you can install with npm (or yarn if you prefer).
 
 `npm install @terminusdb/terminusdb-react-table`
 
-the library contents two main components [`TDBReactTable`](#tdbreacttable) and [`AdvancedSearch`](#advancedsearch)
+The library has two main components [`TDBReactTable`](#tdbreacttable) and [`AdvancedSearch`](#advancedsearch)
 
 ## TDBReactTable
-### Props
-| props |description |
+### Properties
+| Properties |Description |
 |--|--|
-|`start:Number`| the pagination start value, we view the row from start to start+limit |
-|`limit:Number`| Determines the amount of rows on any given page, 10 is the default value|
-|`totalRows:Number`| The total number of row|
-|`result:Array `| The data array that you want to display on the table |
-|`config`|The table configuration the main options are `columns:Array<Column>` required - The core columns configuration object for the entire table. `rowClick : Function` A function which acts as a callback when the table row is clicked|
-|`orderBy:Array`| - An array of sorting object. the sorting object should contain an `id` key with the corresponding column ID to sort by. An optional `desc` key (defaults to `false`) . This information is stored in state|
+|`start:Number`| The pagination start value, we view the row from start to start+limit |
+|`limit:Number`| Determines the amount of rows on any given page, the default value is 10|
+|`totalRows:Number`| The total number of rows|
+|`result:Array `| The data array to display in the table |
+|`config`|Table configuration. The main options are `columns:Array<Column>` required - The core columns configuration object for the entire table. `rowClick : Function` A function that acts as a callback when the table row is clicked|
+|`orderBy:Array`| - An array of sorting objects. The sorting object should contain an `id` key with the corresponding column ID to sort by. An optional `desc` key (defaults to `false`) - this information is stored in state|
 |`filterBy:Array`| - An array of objects, each having a column `id` and a corresponding filter `value`. This information is stored in state|
-|`downloadConfig:Object`| - The download config object should contain an filename for the file output, an headersLabel array with the list of the columns to add to the files and a className to styling the download button component |
-|`setFilters:Function`| - A function which acts as a callback when the columns input filter is setter and the Enter key if pressed, your should implement your own row filter outside of the table|
-|`setOrder:Function`| - A function which acts as a callback when the columns sort arrow is clicked. You should implement your own sorting outside of the table
-|`setLimits:Function(currentlimit:Number,currentstart:Number)`| - A function which act as a callback when the pageSize or the pageIndex change in the table. You should implement your own sorting outside of the table
-|`setHiddenColumns:Function(id:String, checked:Bool)`| - A function which act as a callback when the hide/show check box if clicked |
+|`downloadConfig:Object`| - The download config object should contain an filename for the file output, a headersLabel array with the list of columns to add to the files, and a className to style the download button component |
+|`setFilters:Function`| - A function that acts as a callback when the columns input filter is filled and the Enter key if pressed, row filters need to be implemented outside of the table|
+|`setOrder:Function`| - A function that acts as a callback when the columns sort arrow is clicked. Implement your own sorting outside of the table
+|`setLimits:Function(currentlimit:Number,currentstart:Number)`| - A function that acts as a callback when the pageSize or the pageIndex changes in the table. You should implement your own sorting outside of the table
+|`setHiddenColumns:Function(id:String, checked:Bool)`| - A function that acts as a callback when the hide/show check box if clicked |
 
 ### Column Options
 The following options are supported on any column object you can pass to columns.
-| props |description |
+| Properties |Description |
 |---|---|
-| `accessor:String|Function(originalRow, rowIndex) => any` | - Require - This string/function is used to build the data model for your column.
-| `id: String`| - Required - This is the unique ID for the column. It is used by reference in things like sorting, grouping, filtering etc.
+| `accessor:String|Function(originalRow, rowIndex) => any` | - Required - This string/function is used to build the data model for your column.
+| `id: String`| - Required - This is the unique ID for the column. It is used as a reference in things like sorting, grouping, filtering etc.
 |`Header: String`| - Optional, the column title, the id will used if this property is not provided
 |`width:Number`| - Optional |
 |`minWidth: Number`| - Optional |
 |`maxWidth: Number`| - Optional |
-|`disableSortBy : Bool`| - Disables sorting for the column.
-|`disableFilters:Bool`| - Disables filter for the column.
-|`renderer: String or Function`| - Optional, - The available value for the string value are `json` - `number` - `string` - `image`, If you pass a function instead this will receives the table instance and cell model as props and should return a JSX object or a string
-|`filter:Object`| - This object should have a `type` property, the available value for type are : `list` , `number`, `string` or `boolean` and an `options` object where you can set the operator for the filter if you would like to override the default one
+|`disableSortBy : Bool`| - Disables sorting of a column.
+|`disableFilters:Bool`| - Disables filtering of the column.
+|`renderer: String or Function`| - Optional, - The available values for the string value are `json` - `number` - `string` - `image`. If you pass a function instead, this will receive the table instance and cell model as properties and return a JSX object or a string
+|`filter:Object`| - This object should have a `type` property, the available values for type are : `list` , `number`, `string` or `boolean`. Use an `options` object to set the operator for the filter to override the defaults
 
 ### Usage
 
@@ -119,32 +119,35 @@ return  <Container  className='my-5'>
 
 export  default  App;
 ```
+### Example `TdbReactTable` Code
+
 [TdbReactTable Code](https://github.com/terminusdb/terminusdb-dashboard/tree/main/packages/tdb-react-table/src)
+
 [Codesandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/table-basic-conf)
 
 ## AdvancedSearch
 
-### Props
+### Properties
 
-| props |description |
+| Properties |Description |
 |--|--|
-|`setFilter:Function(advFilter:Object)`| A function which act as a callback when the advanced filter `Filter Data` button is clicked |
-|`fields:Object`| the Advanced Search fields description
+|`setFilter:Function(advFilter:Object)`| A function that acts as a callback when the advanced filter `Filter Data` button is clicked |
+|`fields:Object`| The Advanced Search fields description
   
-### fields Options
+### Fields Options
 
-The following options are supported on any files object you can pass to field, the keys in fields is the name of id of the field itself.
+The following options are supported on any files object that you can pass to field, the keys in fields are the ID of the field itself.
 
-| props |description |
+| Properties |Description |
 |---|---|
-|`label:String` | - Required - is the field label
-|`type:string`| - Required - is the field widget match type for graphql |
+|`label:String` | - Required - the field label
+|`type:string`| - Required - is the field widget match type for GraphQL |
 |`valueSources:Array`| - Required - for the default widget this is always ["value"]
-|`typeValue:String`| - Required - the graphql value type (String,BigInt )
-|`operators:Array`| - Optional - an Array of available operator
+|`typeValue:String`| - Required - the GraphQL value type (String,BigInt )
+|`operators:Array`| - Optional - an Array of available operators
 |`defaultOperator:String`| - Optional - the default operator for the type
-|`fieldSettings`| - Optional - an Array of options for the type select valuetype ENUM
-|`subfields`| - Optional - a list of subfield for the type `!group` valuetype Object
+|`fieldSettings`| - Optional - an Array of options for the valuetype ENUM
+|`subfields`| - Optional - a list of subfields for the type `!group` valuetype Object
 ```json
 {"myfield":{
 	"label":"myfiledLabel",
@@ -156,7 +159,7 @@ The following options are supported on any files object you can pass to field, t
 ```
 [advancedSearchMatchType code](....)
 
-**you can use the follow method to format the advancedSearch fields**
+**You can use the following method to format the advanced search fields**
 
 ```javascript
 import {advancedSearchMatchType} from  "@terminusdb/terminusdb-react-table/advancedSearchUtils"
@@ -166,5 +169,8 @@ stringFormat.label= "myPropertyName"
 const  fields = {"myPropertyName" :  stringFormat}
 ```
 
+### Code Examples of Advanced Search
+
 [AdvancedSearch Code](https://github.com/terminusdb/terminusdb-dashboard/tree/main/packages/tdb-react-table/src)
+
 [Codesandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/advanced-search)
