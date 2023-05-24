@@ -1,6 +1,6 @@
 ## DocumentClassesSummary
-The component DocumentClassesSummary can help you to compose your dashboard very fast 
-This element allow you to visualize the document classes using iteractive cards.
+ 
+The `DocumentClassesSummary` element allows you to visualize document classes using interactive cards.
 
 ## Installation
 
@@ -11,12 +11,12 @@ Install the dependancy from npm
  npm install @terminusdb/terminusdb-react-table
  npm install @terminusdb/terminusdb-documents-ui-templates
 ```
-## Props
-| props |description  |
+## Properties
+| Properties |Description  |
 |--|--|
-|totalDocumentCount|the total number of documents insert|
-|perDocumentCount| the number of document insert for type|
-|onDocumentClick| A function which acts as a callback when the document class card is clicked|
+|totalDocumentCount|The total number of documents|
+|perDocumentCount| The number of documents for a type|
+|onDocumentClick| A function that acts as a callback when the document class card is clicked|
 
 ## Example
 ```js
@@ -54,8 +54,10 @@ export const Documents = ({tdbClient}) => {
 }
 ```
 
-you can see this code integrated inside a dashboard here
+View the code integrated inside a dashboard here - 
+
 [DocumentSearchComponent code]()
+
 [Sandbox]
 
 
