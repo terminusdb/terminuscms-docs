@@ -4,7 +4,7 @@ The edit document component allows you to edit an existing document using the Fr
 
 ## Installation
 
-Install the dependancy from npm
+Install the dependancies from npm
 
 ```
  npm install @terminusdb/terminusdb-documents-ui
