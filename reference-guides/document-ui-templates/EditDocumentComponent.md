@@ -78,6 +78,7 @@ export const DocumentEdit = ({type, documentID, tdbClient}) => {
 ```
 
 View the EditDocumentComponent component integrated inside a dashboard here 
+
 [EditDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentEdit.js)
 
 [CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
