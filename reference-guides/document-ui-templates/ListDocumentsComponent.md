@@ -100,7 +100,7 @@ export const ListDocuments = ({type,apolloClient,tdbClient}) => {
 }
 ```
 
-View the ListDocumentsComponent component integrated inside a dashboard here 
+View the ListDocumentsComponent integrated inside a dashboard here 
 
 [ListDocumentsComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/ListDocuments.js)
 
