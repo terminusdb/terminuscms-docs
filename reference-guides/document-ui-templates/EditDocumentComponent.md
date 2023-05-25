@@ -1,5 +1,5 @@
 # Edit Document Component
-The `EditDocumentComponent` allows you to edit an existing document using the [FrameViewer](../document-ui-sdk.md) components
+The `EditDocumentComponent` allows you to edit an existing document using the [FrameViewer](../document-ui-sdk.md) component.
 
 ## Installation
 
