@@ -73,5 +73,8 @@ The following options are supported via the main options object passed to useTDB
  	 - This function is called to add or remove a columns ID to the `hiddenColumns ` status property
  
 	
-[Code](..)
-[Sandbox]
+View the useTDBGraphqlQuery component integrated inside a dashboard here 
+[useTDBGraphqlQuery source code](https://github.com/terminusdb/terminusdb-dashboard/blob/main/packages/tdb-documents-ui-template/src/hook/useTDBGraphqlQuery.js)
+
+[useTDBGraphqlQuery usage in the DocumentsGraphqlTable component](https://github.com/terminusdb/terminusdb-dashboard/blob/main/packages/tdb-documents-ui-template/src/components/DocumentsGraphqlTable.js)
+

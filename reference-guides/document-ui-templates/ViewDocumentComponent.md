@@ -1,6 +1,5 @@
 ## ViewDocumentComponent
-The `ViewDocumentComponent` allows you to view existing documents using the FrameViewer components from `....`.
-
+The `ViewDocumentComponent` allows you to view existing documents using the [FrameViewer](../document-ui-sdk.md) component.
 
 ## Installation
 
@@ -22,7 +21,7 @@ Install the dependencies from npm
 |closeButtonClick|A function that acts as a callback when the panel exit `x` button is clicked
 |deleteDocument| A function that acts as a callback when the delete button is clicked
 |editDocument| A function that acts as a callback when the edit button is clicked
-|getDocumentById| A function that acts as a callback when the a link property (a link to another document) is clicked inside the document interface 
+|getDocumentById| A function that acts as a callback when the a link property (a link to another document) is clicked inside the document interface|
 
 ## Example
 ```js
@@ -86,10 +85,9 @@ export const DocumentView = ({tdbClient,type, documentID}) => {
 }
 ```
 
-View the code integrated inside a dashboard here - 
+View the ViewDocumentComponent component integrated inside a dashboard here 
+[ViewDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentView.js)
 
-[DocumentSearchComponent example]()
-
-[Sandbox]
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
 
 

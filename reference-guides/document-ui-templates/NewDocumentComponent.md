@@ -1,5 +1,5 @@
 ## NewDocumentComponent
-The `NewDocumentComponent` allows you to create new documents using the FrameViewer from `....`.
+The `NewDocumentComponent` allows you to create new documents using the [FrameViewer](../document-ui-sdk.md).
 
 ## Installation
 
@@ -73,11 +73,9 @@ export const DocumentNew = ({type,tdbClient}) => {
             </React.Fragment>
 }
 ```
+View the NewDocumentComponent component integrated inside a dashboard here 
+[NewDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentNew.js)
 
-View code integrated inside a dashboard here - 
-
-[DocumentSearchComponent example]()
-
-[Sandbox]
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
 
 

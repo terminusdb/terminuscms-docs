@@ -45,8 +45,7 @@
 - `getDocumentById: Function(documentId:String)` 
 	 - Calls the server to get a document object and return it
 
+View the useTDBDocuments component integrated inside a dashboard here 
+[useTDBDocuments an example code to create a new document](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentNew.js)
 
-## Usage
-```
-
-```
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)

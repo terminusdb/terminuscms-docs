@@ -1,11 +1,12 @@
 ## Documents UI - GraphQL Table
 
-The `DocumentsGraphqlTable` element allows you to visualize document classes using iteractive cards.
+The `DocumentsGraphqlTable` component allows you to operate with graphql query and visualize the result in a table,
+you need to pass your instace of ApolloClient the graphql query and the table configuration and the advanced search configuration. 
+[for the configuration documentation](../tdb-react-table.md)
 
 ## Installation
 
 Install the dependencies from npm
-
 ```
 npm install @terminusdb/terminusdb-documents-ui
 npm install @terminusdb/terminusdb-react-table
@@ -18,12 +19,14 @@ npm install @terminusdb/terminusdb-documents-ui-templates
 |type| The document type
 |gqlQuery|The GraphQL query|
 |apolloClient| An apollo client instance - [documentation](https://www.apollographql.com/docs/react/)|
-|tableConfig| An object with the table configuration|
+|tableConfig| An object with the table configuration to pass to the [TDBReactTable Component](../tdb-react-table.md)| 
+|advancedSearchConfig| An object with the advancedSearch configuration to pass to the [AdvancedSearch Component](../tdb-react-table.md)| 
 |onRowClick|A function that acts as a callback when the table row is clicked|
 |onViewButtonClick|A function that acts as a callback when the table row view button is clicked|
 |onEditButtonClick|A function that acts as a callback when the table row edit button is clicked|
 |onDeleteButtonClick|A function that acts as a callback when the table row delete button is clicked|
 |showGraphqlTab|A boolean property to enable the GraphQL query view tab|
+
 
 ## Example
 ```js
@@ -59,9 +62,9 @@ export const DocumentSearchComponent = ({setSelected, doctype,apolloClient,tdbCl
 }
 ```
 
-you can see this code integrated inside a dashboard here
-[DocumentSearchComponent full example code]()
-[DocumentsGraphqlTable code]()
-[View the complete example in Sandbox]()
+View the DocumentsGraphqlTable component integrated inside a dashboard here 
+[DocumentSearchComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/components/DocumentSearchComponent.js)
+
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
 
 

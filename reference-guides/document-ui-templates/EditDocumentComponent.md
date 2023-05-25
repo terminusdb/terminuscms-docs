@@ -1,6 +1,5 @@
 # Edit Document Component
-The `EditDocumentComponent` allows you to edit an existing document using the FrameViewer components from `....`.
-
+The `EditDocumentComponent` allows you to edit an existing document using the [FrameViewer](../document-ui-sdk.md) components
 
 ## Installation
 
@@ -78,10 +77,9 @@ export const DocumentEdit = ({type, documentID, tdbClient}) => {
 }
 ```
 
-See the code integrated inside a dashboard here -
+View the EditDocumentComponent component integrated inside a dashboard here 
+[EditDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentEdit.js)
 
-[DocumentSearchComponent example]()
-
-[Sandbox]
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
 
 

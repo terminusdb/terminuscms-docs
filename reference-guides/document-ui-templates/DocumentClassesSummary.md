@@ -1,6 +1,6 @@
 ## DocumentClassesSummary
  
-The `DocumentClassesSummary` element allows you to visualize document classes using interactive cards.
+The `DocumentClassesSummary` component allows you to visualize document classes using interactive cards.
 
 ## Installation
 
@@ -54,10 +54,10 @@ export const Documents = ({tdbClient}) => {
 }
 ```
 
-View the code integrated inside a dashboard here - 
+View the DocumentClassesSummary integrated inside a dashboard here 
+[DocumentClassesSummary full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/Documents.js)
 
-[DocumentSearchComponent code]()
+[CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
 
-[Sandbox]
 
 
