@@ -85,7 +85,8 @@ export const DocumentView = ({tdbClient,type, documentID}) => {
 }
 ```
 
-View the ViewDocumentComponent component integrated inside a dashboard here 
+View the ViewDocumentComponent integrated inside a dashboard here 
+
 [ViewDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentView.js)
 
 [CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
