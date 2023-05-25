@@ -66,7 +66,8 @@ export const DocumentSearchComponent = ({setSelected, doctype,apolloClient,tdbCl
 }
 ```
 
-View the DocumentsGraphqlTable component integrated inside a dashboard here 
+View the DocumentsGraphqlTable component integrated inside a dashboard here
+
 [DocumentSearchComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/components/DocumentSearchComponent.js)
 
 [CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
