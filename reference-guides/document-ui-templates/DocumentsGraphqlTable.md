@@ -19,7 +19,7 @@ npm install @terminusdb/terminusdb-documents-ui-templates
 |--|--|
 |type| The document type
 |gqlQuery|The GraphQL query|
-|apolloClient| An apollo client instance - [documentation](https://www.apollographql.com/docs/react/)|
+|apolloClient| An apollo client instance - [Apollo Client documentation](https://www.apollographql.com/docs/react/)|
 |tableConfig| An object with the table configuration to pass to the [TDBReactTable Component](../tdb-react-table.md)| 
 |advancedSearchConfig| An object with the advancedSearch configuration to pass to the [AdvancedSearch Component](../tdb-react-table.md)| 
 |onRowClick|A function that acts as a callback when the table row is clicked|
