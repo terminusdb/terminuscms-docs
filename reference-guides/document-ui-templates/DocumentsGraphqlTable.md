@@ -1,7 +1,7 @@
 ## Documents UI - GraphQL Table
 
-The `DocumentsGraphqlTable` component allows you to operate with graphql query and visualize the result in a table,
-you need to pass your instace of ApolloClient the graphql query and the table configuration and the advanced search configuration. 
+The `DocumentsGraphqlTable` component allows you to operate with graphql query and visualize the result in a the [TDBReactTable](../tdb-react-table.md),
+you need to pass your instace of ApolloClient, the graphql query and the table and the advanced search configuration. 
 [for the configuration documentation](../tdb-react-table.md)
 
 ## Installation
