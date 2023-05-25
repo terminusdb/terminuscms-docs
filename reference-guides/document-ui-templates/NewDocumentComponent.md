@@ -73,7 +73,7 @@ export const DocumentNew = ({type,tdbClient}) => {
             </React.Fragment>
 }
 ```
-View the NewDocumentComponent component integrated inside a dashboard here 
+View the NewDocumentComponent integrated inside a dashboard here 
 
 [NewDocumentComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/DocumentNew.js)
 
