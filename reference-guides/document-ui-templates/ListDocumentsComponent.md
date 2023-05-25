@@ -1,5 +1,5 @@
 ## ListDocumentsComponent
-The `ListDocumentsComponent` element allows you to visualize the documents inside a the [TDBReactTable](../tdb-react-table.md) and query the documents using the advanced search component.
+The `ListDocumentsComponent` element allows you to visualize the documents inside the [TDBReactTable](../tdb-react-table.md) and query the documents using the advanced search component.
 
 ## Installation
 
@@ -101,6 +101,7 @@ export const ListDocuments = ({type,apolloClient,tdbClient}) => {
 ```
 
 View the ListDocumentsComponent component integrated inside a dashboard here 
+
 [ListDocumentsComponent full example code](https://github.com/terminusdb/dashboard-examples-sandbox/blob/main/terminusdb-documents-ui-template-example/dashboard-demo/src/pages/ListDocuments.js)
 
 [CodeSandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-documents-ui-template-example/dashboard-demo)
