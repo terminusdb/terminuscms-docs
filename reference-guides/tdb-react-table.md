@@ -123,7 +123,7 @@ export  default  App;
 
 [TdbReactTable Code](https://github.com/terminusdb/terminusdb-dashboard/tree/main/packages/tdb-react-table/src)
 
-[Codesandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/table-basic-conf)
+[Code sandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/table-basic-conf)
 
 ## AdvancedSearch
 
@@ -173,4 +173,4 @@ const  fields = {"myPropertyName" :  stringFormat}
 
 [AdvancedSearch Code](https://github.com/terminusdb/terminusdb-dashboard/tree/main/packages/tdb-react-table/src)
 
-[Codesandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/advanced-search)
+[Code sandbox](https://codesandbox.io/s/github/terminusdb/dashboard-examples-sandbox/tree/main/terminusdb-react-table-examples/advanced-search)
