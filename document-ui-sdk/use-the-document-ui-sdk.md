@@ -1,8 +1,6 @@
----
-description: Create UIs directly from TerminusDB's schema
----
-
 # Use the Document UI SDK
+
+*Create UIs directly from TerminusDB's schema*
 
 Use the TerminusDB documents User Interface (UI) utility `terminusdb-documents-ui` to automatically generate customizable user interfaces for the document definitions in your TerminusDB schema. The utility takes frames as input and outputs forms in HTML format. A frame is the JSON structure of a JSON document, including the document's inherited properties and IRIs.
 
@@ -49,7 +47,7 @@ Use the `FrameViewer` object of `terminusdb-documents-ui` to configure, customiz
 
 A common use of `terminusdb-documents-ui` is as follows:
 
-1. Set **** up a Webpack.
+1. Set up a Webpack.
 2. Use the [TerminusDB JavaScript client](../../guides/reference-guides/javascript-client-reference/woqlclient.md).
 3. Use the client function `getSchemaFrame` to retrieve frame data from a TerminusDB database.
 4. Set custom values and behaviour for `FrameViewer` parameters and functions as required.
@@ -255,10 +253,10 @@ return <FrameViewer
 
 The Document UI SDK reference guide:
 
-****[**Documents UI SDK data types**](documents-user-interface-data-types.md).
+[**Documents UI SDK data types**](ui-sdk-data-types/).
 
-****[**Documents UI SDK customization**](documents-user-interface-customization.md)**.**
+[**Documents UI SDK GeoJSON**](../ui-geoJSON/documents-user-interface-geoJSON.md)**.**
 
-****[**Documents UI SDK Geographic Maps**](documents-user-interface-geographic-maps.md)**.**
+[**UI SDK Demo Playground**](https://documents-ui-playground.terminusdb.com/)**.**
 
-****[**TerminusDB JavaScript client reference guide**](../../guides/reference-guides/javascript-client-reference/woqlclient.md)**.**
+[**TerminusDB JavaScript client reference guide**](../../guides/reference-guides/javascript-client-reference/woqlclient.md)**.**
