@@ -12,7 +12,7 @@ TerminusDB is a powerful, in-memory graph database enabling you to maximize your
 
 #### Diagram: Some key features of TerminusDB
 
-![](../img/diagrams/terminusdb-what-is-it.png)
+![](https://raw.githubusercontent.com/terminusdb/terminusdb-docs/main/img/diagrams/terminusdb-what-is-it.png)
 
 ### Why choose TerminusDB?
 
@@ -52,7 +52,7 @@ TerminusDB is highly configurable with powerful features for rapidly and collabo
 
 #### Diagram: Reasons to choose TerminusDB
 
-![](../img/diagrams/terminusdb-why-choose.png)
+![](https://raw.githubusercontent.com/terminusdb/terminusdb-docs/main/img/diagrams/terminusdb-why-choose.png)
 
 ### Git-like model
 
@@ -64,7 +64,7 @@ TerminusDB implements an advanced Git-like model, using [delta encoding](glossar
 
 #### Diagram: TerminusDB Git-like operations
 
-![](../img/diagrams/terminusdb-git-model.png)
+![](https://raw.githubusercontent.com/terminusdb/terminusdb-docs/main/img/diagrams/terminusdb-git-model.png)
 
 ### Further Reading
 
