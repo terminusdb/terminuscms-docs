@@ -10,10 +10,19 @@
 ```
 
 2. Initialize ApolloClient and Connect with TerminusDB
-Import the dependencies that we need
+Import or require the dependencies that we need 
 
 ```js
-import { ApolloClient, InMemoryCache, ApolloProvider, gql,HttpLink,ApolloLink } from '@apollo/client';
+import { ApolloClient, InMemoryCache, concat, gql,HttpLink,ApolloLink } from '@apollo/client';
+
+```
+
+or 
+
+```js
+const Apollo =  require( '@apollo/client');
+
+const { ApolloClient, InMemoryCache, concat, gql,HttpLink,ApolloLink } = Apollo
 
 ```
 
