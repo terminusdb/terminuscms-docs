@@ -82,12 +82,9 @@ const orgName = "myOrganizationName"
 const dbName = "myDBname"
 const myBranch = "main"
 
-const user = "admin"
-const password = "mypass"
-const userPassEnc = btoa(`${user}:${password}`)
+const myAPIToken = 'replaceYourToken'
 
 const terminusdbURL = `https://cloud.terminusdb.com/${orgName}/api/graphql/${orgName}/${dbName}/local/branch/${myBranch}/`
-const myAPIToken = 'replaceYourToken'
 
 const httpLink = new HttpLink({ uri: terminusdbURL });
 const authMiddleware = new ApolloLink((operation, forward) => {
