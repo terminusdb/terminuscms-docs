@@ -75,7 +75,7 @@ apolloClient
 
 ## Connect with terminusCMS 
 > :note:
-> How get your [api token](link to api token page) to connect with terminusCMS
+> How get your (api token)[link to api token page] to connect with terminusCMS
 
 ```js
 const orgName = "myOrganizationName"
