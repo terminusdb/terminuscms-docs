@@ -80,7 +80,8 @@ apolloClient
     }
     `,
   })
-  .then((result) => console.log(result.data));
+  .then((result) => console.log(result.data))
+  .catch(err =>console.log(err.message));
 ```
 
 ## Connect with terminusCMS 
@@ -131,7 +132,8 @@ apolloClient
     }
     `,
   })
-  .then((result) => console.log(result.data));
+  .then((result) => console.log(result.data))
+  .catch(err =>console.log(err.message));
 
 
 
