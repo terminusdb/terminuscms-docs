@@ -57,7 +57,7 @@ const apolloClient = new ApolloClient({
     link: value,       
 });
 
-3. Query your database
+// Query your database
 
 apolloClient
   .query({
@@ -108,7 +108,7 @@ const apolloClient = new ApolloClient({
     link: value,       
 });
 
-3. Query your database
+// Query your database
 
 apolloClient
   .query({
